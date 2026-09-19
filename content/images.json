@@ -1,4 +1,14 @@
 {
+ "home-hero": {
+  "source": "banner-3.png",
+  "alt": "A wooden table with handmade natural products: amber jars of cream, lavender-topped soap bars, a lit candle in a glass jar, dropper bottles, eucalyptus, rosemary and chamomile.",
+  "credit": ""
+ },
+ "soap-hero": {
+  "source": "banner-2.png",
+  "alt": "A loaf of cold process soap with pink and green swirls being cut into bars on a wooden board, with a soap cutter, oats and dried calendula petals.",
+  "credit": ""
+ },
  "candles-hero": {
   "source": "banner-1.png",
   "alt": "Pouring melted wax into a glass jar on a kitchen table, surrounded by dessert-style candles: a cupcake candle, a strawberry sponge cake candle, dried orange slices and cinnamon sticks.",
