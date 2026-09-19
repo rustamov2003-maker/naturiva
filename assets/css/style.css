@@ -503,3 +503,8 @@ a:has(> .cover), .lib-cover { text-decoration: none; display: block; }
   .cw-form { padding-bottom: max(.7rem, env(safe-area-inset-bottom, 0px)); }
 }
 @media print { .cw { display: none; } }
+
+/* ---------- photography ---------- */
+.banner { margin: 0; }
+.banner img { width: 100%; height: clamp(14rem, 34vw, 26rem); object-fit: cover; object-position: center 55%; }
+@media (min-width: 1100px) { .banner img { height: clamp(18rem, 30vw, 30rem); } }

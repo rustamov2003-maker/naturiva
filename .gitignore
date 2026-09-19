@@ -1,3 +1,5 @@
 NOTES-private.md
 __pycache__/
 *.pyc
+incoming/*
+!incoming/README.txt

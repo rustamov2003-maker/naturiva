@@ -68,6 +68,7 @@ customer = load("customer_faq.json")
 books = load("books.json")
 B = {b["id"]: b for b in books}
 ingredients = load("ingredients.json")
+images = load("images.json")
 paths = load("paths.json")
 
 # Topics the books don't cover get no public article (they'd be thin pages);
@@ -120,6 +121,20 @@ def cover(b, root, size=""):
             f'<span class="cv-title">{esc(b["title"].replace("The Art of ", ""))}</span>{sub}'
             f'<span class="cv-author">{esc(b["author"])}</span></div>')
 
+
+
+def banner(slot, root, cls="banner"):
+    """Responsive <picture> for an image prepared by tools/images.py."""
+    spec = images.get(slot)
+    if not spec:
+        return ""
+    base = f"{root}assets/img/{slot}"
+    return (f'<figure class="{cls}">'
+            f'<picture>'
+            f'<source type="image/webp" sizes="100vw" srcset="{base}-800.webp 800w, {base}-1200.webp 1200w, {base}-2400.webp 2400w">'
+            f'<img src="{base}-1200.jpg" srcset="{base}-800.jpg 800w, {base}-1200.jpg 1200w, {base}-2400.jpg 2400w" sizes="100vw" '
+            f'alt="{esc(spec["alt"])}" loading="lazy" decoding="async" width="2400" height="1340">'
+            f'</picture></figure>')
 
 # ---------------------------------------------------------------- reusable blocks
 _ask_ids = itertools.count(1)
@@ -283,7 +298,11 @@ BLOCK_FUNCS = {
 }
 
 
+BANNER_RE = re.compile(r"\{\{BANNER:([a-z0-9-]+)\}\}")
+
+
 def render_blocks(body, root):
+    body = BANNER_RE.sub(lambda m: banner(m.group(1), root), body)
     for key, fn in BLOCK_FUNCS.items():
         token = "{{" + key + "}}"
         if token in body:
@@ -309,13 +328,19 @@ def head(meta, rel, root):
         f'<meta property="og:title" content="{esc(meta.get("og_title", title))}">',
         f'<meta property="og:description" content="{esc(meta.get("og_description", desc))}">',
         '<meta property="og:locale" content="en_US">',
-        '<meta name="twitter:card" content="summary">',
+        '<meta name="twitter:card" content="summary_large_image">' if meta.get("og_image") else '<meta name="twitter:card" content="summary">',
         f'<link rel="icon" href="{root}assets/img/favicon.svg" type="image/svg+xml">',
         f'<link rel="preload" href="{root}assets/fonts/YoungSerif-400-latin.woff2" as="font" type="font/woff2" crossorigin>',
         f'<link rel="preload" href="{root}assets/fonts/InstrumentSans-400-latin.woff2" as="font" type="font/woff2" crossorigin>',
         f'<link rel="stylesheet" href="{root}assets/css/fonts.css">',
         f'<link rel="stylesheet" href="{root}assets/css/style.css">',
     ]
+    if meta.get("og_image") in images:
+        img = f'{root}assets/img/{meta["og_image"]}-1200.jpg'
+        if SITE_URL:
+            img = SITE_URL.rstrip("/") + "/" + img.replace(root, "", 1)
+        tags.append(f'<meta property="og:image" content="{img}">')
+        tags.append(f'<meta property="og:image:alt" content="{esc(images[meta["og_image"]]["alt"])}">')
     if SITE_URL:
         tags += [f'<link rel="canonical" href="{url_for(rel)}">', f'<meta property="og:url" content="{url_for(rel)}">']
     for block in meta.get("jsonld", []):
