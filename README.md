@@ -90,6 +90,15 @@ To connect GTM, GA4 or Plausible, edit `assets/js/config.js`. No credentials are
 
 Issues found while reviewing the source PDFs are kept in `NOTES-private.md` (local only, not committed).
 
+## Hosting
+
+| Where | What |
+|---|---|
+| VPS (nginx vhost `naturiva`) | http://naturiva.129.121.111.249.nip.io/ — site in `/var/www/naturiva`, sources in `/srv/naturiva-src`, config in `/etc/nginx/sites-available/naturiva` |
+| GitHub Pages (preview) | https://rustamov2003-maker.github.io/naturiva/ |
+
+Run `./deploy.sh` to rebuild and publish to the VPS. `robots.txt` currently asks search engines not to index the site; remove that rule when the real domain goes live.
+
 ## To add before launch
 
 - Real cover images and product or ingredient photography. The covers are typographic placeholders; see `.cover` in `style.css`.
