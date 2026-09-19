@@ -1,0 +1,114 @@
+[
+ {
+  "id": "skin",
+  "slug": "the-art-of-natural-skincare",
+  "series": "The Art Of",
+  "title": "The Art of Natural Skincare",
+  "short": "Natural Skincare",
+  "author": "Nigar Rustamova",
+  "pages": "about 73 pages",
+  "color": "#3f5e3a",
+  "amazon_url": "",
+  "discovery_keywords": ["skincare", "skin care", "cream", "serum", "cosmetic", "cosmetics", "lotion", "face", "body butter", "formulation", "formulate", "toner", "cleanser"],
+  "tagline": "Seventeen professional formulas, and the reasoning behind every one.",
+  "summary": "A formulation manual that opens with a strict protocol for hygiene, sterilization and safe handling, then works through seventeen formulas, from a pH-balanced foam cleanser and a panthenol barrier cream to copper-peptide serum, whipped body butters and bath salts. Each one lists INCI names, exact grams and percentages, phase-by-phase instructions, target pH, shelf life and a troubleshooting FAQ.",
+  "who_for": [
+    "Beginners: the book states that no prior experience is needed.",
+    "Home formulators who want to understand why a formula works, not just follow it.",
+    "Anyone considering making products for others, who needs a rigorous safety and hygiene foundation first."
+  ],
+  "learn": [
+    "Work to a professional hygiene and sterilization protocol",
+    "Build oil-in-water emulsions phase by phase",
+    "Set and adjust pH for cleansers, toners, creams and serums",
+    "Choose and dose preservatives and antioxidants",
+    "Handle heat-sensitive actives and peptides",
+    "Make anhydrous oils, butters, scrubs and bath salts that stay stable"
+  ],
+  "inside": [
+    { "part": "Foundations", "chapters": ["Introduction: A Journey of Personal Care", "The Non-Negotiable Protocol: Safety, Sterility & the Professional Mindset"] },
+    { "part": "Face", "chapters": ["Calming Chamomile Foam Cleanser", "Cellular Renewal Elixir", "Barrier Repair Cream", "Omega-Renewal Facial Elixir", "Clarifying Bio-Balance Toner", "Velvet Skin Veil Cream", "Biphase Cleansing Elixir", "Copper Peptide Renewal Serum", "Peri-Orbital Renewal Complex"] },
+    { "part": "Body", "chapters": ["Chocolate Orange Body Butter", "Whipped Shea & Mango Body Butter", "Invigorating Coffee & Orange Body Scrub", "Detoxifying Himalayan Salt & Mint Body Scrub", "Effervescent Aromatic Bath Salt", "Body Contouring & Firming Gel", "Gentle Shower Gel with Physiological pH"] },
+    { "part": "Closing", "chapters": ["Conclusion"] }
+  ],
+  "topics": ["Hygiene & sterilization", "Emulsions", "pH", "Preservation", "Actives & peptides", "Hydrosols", "Gels", "Anhydrous products", "Essential oil limits", "Shelf life"],
+  "try": ["why-is-ph-important", "do-i-need-a-preservative", "grainy-body-butter"],
+  "faq_ids": ["how-to-approach-formulation", "what-is-an-emulsion", "what-are-active-ingredients", "shelf-life-of-homemade-products"],
+  "why": "The author teaches natural formulation and wrote this book so readers could master the craft rather than depend on recipes: each formula explains its choices so you can learn to reason like a formulator."
+ },
+ {
+  "id": "soap",
+  "slug": "the-art-of-personal-soapmaking",
+  "series": "The Art Of",
+  "title": "The Art of Personal Soapmaking",
+  "short": "Soapmaking",
+  "author": "Nigar Rustamova",
+  "pages": "about 74 pages",
+  "color": "#b9765f",
+  "amazon_url": "",
+  "discovery_keywords": ["soap", "soapmaking", "soap making", "cold process", "hot process", "lye", "bar", "castile"],
+  "tagline": "Seven chapters of theory before the first recipe.",
+  "summary": "A masterclass-style guide to natural cold and hot process soap. It starts with safety and sterility, then covers fragrance and essential oils, the gel phase, natural additives, cure times, infused oils and how to read soap-calculator values. Ten detailed recipes follow, from pure Castile and classic Marseille to layered spice bars, goat milk & honey and a hot process jasmine soap, each with its own FAQ.",
+  "who_for": [
+    "Complete beginners: the book says no prior experience is needed, and it starts with lye safety.",
+    "Makers who already soap and want to understand trace, gel phase, superfat and curing.",
+    "Experienced soapers ready for the advanced techniques: dual superfatting, layering, milk and hot process."
+  ],
+  "learn": [
+    "Handle lye safely and follow a professional protocol",
+    "Understand saponification, superfat and water discount",
+    "Encourage or prevent the gel phase on purpose",
+    "Read soap-calculator values and design oil blends",
+    "Work with essential oils, fragrance oils, colorants and additives",
+    "Make infused oils and use them as a post-trace superfat"
+  ],
+  "inside": [
+    { "part": "Foundations", "chapters": ["Introduction: A Journey of Personal Care", "The Non-Negotiable Protocol: Safety, Sterility & the Professional Mindset"] },
+    { "part": "Theory", "chapters": ["Fragrances and Colorants for Cold & Hot Process Soap", "Cosmetic Properties of Essential Oils in Soapmaking", "The Gel Phase in Cold & Hot Process Soapmaking", "Natural & Functional Additives for Handmade Soap", "Curing Times for Different Soap Formulations", "Macerated Oils (Infused Oils) for Soap & Skin Care", "Interpreting Soap Calculator Quality Values"] },
+    { "part": "Recipes", "chapters": ["100% Coconut Oil Soap", "Castile Soap", "Marseille Soap", "Black Seed Luxury Soap", "Rosemary & Citrus Luxury Bar", "Four Spices Layered Exfoliating Bar", "Jasmine-Infused Hot Process Soap", "Goat Milk & Honey Soap", "Coconut Milk & Orange Soap with Chocolate Embed", "Fresh-Cut Rose Luxury Bar"] },
+    { "part": "Closing", "chapters": ["Conclusion: From Soapmaker to Formulator"] }
+  ],
+  "topics": ["Lye safety", "Saponification", "Superfat", "Trace", "Gel phase", "Curing", "Soap calculators", "Essential & fragrance oils", "Natural colorants", "Infused oils", "Hot process", "Troubleshooting"],
+  "try": ["why-soap-accelerates", "what-is-gel-phase", "what-is-a-macerated-oil"],
+  "faq_ids": ["cold-vs-hot-process-soap", "how-long-should-soap-cure", "what-is-superfat", "soda-ash-white-coating"],
+  "why": "The book closes with the author's message to every reader: “Do not become dependent on recipes. Learn to understand formulas.”"
+ },
+ {
+  "id": "candles",
+  "slug": "the-big-book-of-sweet-dessert-candles",
+  "series": "The Art Of",
+  "title": "The Big Book of Sweet Dessert Candles",
+  "subtitle": "For a Delectable, Aromatic & Cozy Home",
+  "short": "Candle Making",
+  "author": "Nigar Rustamova",
+  "pages": "about 100 pages",
+  "color": "#8a6b3e",
+  "amazon_url": "",
+  "discovery_keywords": ["candle", "candles", "candle making", "wax", "wick", "container candle", "dessert candle", "diffuser", "perfume", "solid perfume", "massage candle"],
+  "tagline": "Waxes, wicks and temperatures first. Then cakes, cocktails and botanicals.",
+  "summary": "A practical guide to dessert-inspired candles from natural waxes: cakes, cupcakes, cocktails topped with piped 'whipped cream', and sculpted botanical pillars. It begins with the essentials: coconut, soy and beeswax, container versus mold wax, wick testing, dyes, gel and exact temperatures. Step-by-step projects with gram weights follow, along with fixes for wet spots, uneven tops and tunneling. A closing section covers essential-oil notes, solid and oil perfumes, reed diffusers, car fragrance and a massage candle.",
+  "who_for": [
+    "Beginners and intermediate candle makers.",
+    "Makers who want to understand why candles fail, from wet spots to tunneling, and how to fix them.",
+    "Anyone curious about home fragrance: perfumes, diffusers and massage candles."
+  ],
+  "learn": [
+    "Choose between container and mold wax, and coconut, soy and beeswax",
+    "Size and test wicks for a clean, even burn",
+    "Control fragrance load and temperatures",
+    "Color wax correctly with dyes, mica and natural colorants",
+    "Work with candle gel",
+    "Prevent and fix wet spots, uneven tops and tunneling"
+  ],
+  "inside": [
+    { "part": "Foundations", "chapters": ["About the Author", "Safety Rules", "Necessary Tools"] },
+    { "part": "Basics of Candle Making", "chapters": ["Coconut Wax", "White Beeswax", "Soy Wax", "Why Different Waxes Are Needed for Container and Mold Candles", "Uneven Top After Pouring a Candle?", "“Wet Spots” / Candle Adhesion", "Reminder: Preventing Wet Spots", "How to Burn a Candle Correctly", "Which Wick Is Best?", "Wick Testing", "How to Attach a Candle Wick to a Jar or Glass", "Wax Dyes", "Using Candle Dyes", "Gel Candles", "Natural Waxes"] },
+    { "part": "Projects", "chapters": ["Decorative Container Candle", "Cocktail Candle", "Cake Candle", "“Whipped Cream” Candle", "“Fluffy Cupcakes” Candle", "“Sponge Cake with Teddy Bear and Strawberry” Candle", "Additional “Cake Crumb” Decoration", "Cocktail Candle with Airy Foam", "Botanical Dried-Flower Candle", "Gel Candle Combined with Coconut Wax", "Aroma Sachet Recipe"] },
+    { "part": "Perfumery & Aroma Creation", "chapters": ["Classification of Essential Oils by Notes", "Classification of Perfumes by Type", "How to Make Oil-Based Perfume", "How to Make Perfume with Essential Oils", "Car Perfume Recipe", "Massage Candle", "Conclusion"] }
+  ],
+  "topics": ["Coconut, soy & beeswax", "Container vs mold wax", "Wick sizing & testing", "Fragrance load", "Temperatures", "Dyes & mica", "Gel candles", "Whipped wax piping", "Wet spots", "Tunneling", "Solid perfume", "Reed diffusers"],
+  "try": ["why-do-candles-tunnel", "candle-wet-spots", "how-to-choose-a-wick"],
+  "faq_ids": ["container-vs-pillar-wax", "candle-fragrance-load", "how-to-burn-a-candle", "uneven-candle-top"],
+  "why": "The author draws on her years of candle making and teaching courses on candles and home fragrance. The book shares the techniques she uses so readers can create in their own kitchens with confidence."
+ }
+]

@@ -1,0 +1,416 @@
+[
+ {
+  "id": "how-to-approach-formulation",
+  "title": "How should I approach formulation as a beginner?",
+  "category": "Formulation",
+  "book": ["skin"],
+  "chapter": "The Non-Negotiable Protocol · Calming Chamomile Foam Cleanser",
+  "keywords": ["formulation", "beginner", "approach", "learn formulation", "understand formulas", "skincare beginner", "start skincare", "how to formulate", "learn skincare"],
+  "question_variations": [
+    "How do I start making skincare?",
+    "I want to understand formulation",
+    "I want to learn how to make skincare",
+    "What should I know before making skincare products?"
+  ],
+  "short_answer": "Learn the protocol, then learn what each ingredient does and why it goes in at a particular phase and temperature, before you start changing recipes.",
+  "detailed_answer": "The skincare book is built around understanding. Every formula lists each ingredient's INCI name and function, groups ingredients into phases, and gives target temperatures, a target pH, shelf life and a 'key improvements' note that explains the formulation choices.\n\nFour foundations run through every product: hygiene (sterilized tools, a disinfected workspace), preservation (anything with water needs a broad-spectrum preservative), pH (matching skin's acid mantle, around 4.5–5.5) and patch testing. The first formula, a chamomile foam cleanser, is mixed without heat or emulsifying, which makes it an approachable first project.",
+  "practical_guidance": [
+    "Make a formula exactly as written before adjusting it.",
+    "For each ingredient, ask what it does and why it goes in at that phase.",
+    "Record temperature, pH and results for every batch."
+  ],
+  "warnings": ["Skincare made for sale needs additional stability, microbiological and safety testing, plus regulatory assessment."],
+  "related_topics": ["formula-phases", "why-is-ph-important", "do-i-need-a-preservative"],
+  "follow_up": {
+    "prompt": "Would you like to start with phases, pH or preservation?",
+    "options": [
+      { "label": "Phases", "id": "formula-phases" },
+      { "label": "pH", "id": "why-is-ph-important" },
+      { "label": "Preservation", "id": "do-i-need-a-preservative" }
+    ]
+  },
+  "faq": true
+ },
+ {
+  "id": "why-is-ph-important",
+  "title": "Why is pH important in skincare?",
+  "category": "Formulation",
+  "book": ["skin"],
+  "chapter": "Calming Chamomile Foam Cleanser · Clarifying Bio-Balance Toner · Gentle Shower Gel with Physiological pH",
+  "keywords": ["ph", "acid mantle", "acidic", "alkaline", "ph level", "skin ph", "ph important", "target ph"],
+  "question_variations": [
+    "What is pH?",
+    "What pH should my cream be?",
+    "What pH should a cleanser be?"
+  ],
+  "short_answer": "Healthy skin's acid mantle sits at about pH 4.5–5.5. Products in that range protect the barrier, and pH also decides whether some actives and preservatives work.",
+  "detailed_answer": "Alkaline cleansers damage the skin barrier and leave it dry and vulnerable, so the book's cleansers and shower gel sit at pH 4.5–5.5. A lower pH also helps preservatives work better. Some actives need a specific window: salicylic acid only exfoliates below pH 4.5, which is why the toner targets 3.8–4.2, while copper peptides are sensitive to pH jumps and the serum sits at 6.0–6.5.\n\nThe book's targets: cleansers 4.5–5.5; barrier cream 4.8–5.2; exfoliating toner 3.8–4.2; copper-peptide serum 6.0–6.5; firming gel 4.2–5.0.",
+  "practical_guidance": [
+    "Check pH after the preservative is in and the product has cooled.",
+    "Adjust drop by drop: a 10% citric or lactic acid solution lowers pH, and a 10% sodium hydroxide solution raises it."
+  ],
+  "warnings": [],
+  "related_topics": ["how-to-adjust-ph", "exfoliating-toner-ph", "do-i-need-a-preservative"],
+  "faq": true
+ },
+ {
+  "id": "how-to-adjust-ph",
+  "title": "How do I adjust the pH of a formula?",
+  "category": "Formulation",
+  "book": ["skin"],
+  "chapter": "Barrier Repair Cream (Phase E) and other water-based formulas",
+  "keywords": ["adjust ph", "lower ph", "raise ph", "citric acid", "lactic acid", "ph adjuster", "ph strips", "ph meter"],
+  "question_variations": [
+    "How do I lower pH?",
+    "How do I raise pH?"
+  ],
+  "short_answer": "Drop by drop, with a 10% acid solution to lower it or a 10% sodium hydroxide solution to raise it, checking after each addition.",
+  "detailed_answer": "In the book's formulas, pH adjustment is the last phase (usually Phase E). Citric acid or lactic acid is prepared as a 10% solution (the toner uses 80% lactic acid in tiny amounts) and added a drop at a time, typically 0.2–0.5 g per 100 g.",
+  "practical_guidance": ["Stir thoroughly between additions and let the reading settle."],
+  "warnings": [],
+  "related_topics": ["why-is-ph-important", "formula-phases"],
+  "faq": false
+ },
+ {
+  "id": "what-is-an-emulsion",
+  "title": "What is an emulsion, and how do I make a cream?",
+  "category": "Formulation",
+  "book": ["skin"],
+  "chapter": "Barrier Repair Cream · Cellular Renewal Elixir",
+  "keywords": ["emulsion", "emulsify", "emulsifier", "cream", "lotion", "oil and water", "o/w", "make a cream", "hot process emulsion"],
+  "question_variations": [
+    "How do I make a face cream?",
+    "What does an emulsifier do?",
+    "How do oil and water mix?"
+  ],
+  "short_answer": "A cream is an oil-in-water emulsion: oil droplets held evenly through a water phase by an emulsifier. Both phases are heated to the same temperature and combined under high shear.",
+  "detailed_answer": "The book's creams use emulsifiers such as Olivem 1000 or Emulsifying Wax NF (Polawax) at 3–5%, with cetearyl alcohol (1.5–2.5%) to thicken and stabilize.\n\nThe method from the Barrier Repair Cream: heat the oil phase to 70–72 °C until clear. Heat the water phase to 70–72 °C as well, holding it there about 5 minutes. With both at the same temperature, pour the oil into the water in a thin stream while mixing at medium speed, then mix at high speed for 3–4 minutes. Cool while stirring slowly. Add actives at 38–40 °C and the preservative at 35 °C, adjust pH, keep stirring down to 25–28 °C, pack, and rest 24 hours.",
+  "practical_guidance": [
+    "Match the temperatures of both phases before combining.",
+    "For a lighter texture, reduce cetearyl alcohol to 1.5–2%."
+  ],
+  "warnings": [],
+  "related_topics": ["formula-phases", "why-does-my-emulsion-separate", "what-are-active-ingredients"],
+  "faq": true
+ },
+ {
+  "id": "formula-phases",
+  "title": "What are the phases in a formula?",
+  "category": "Formulation",
+  "book": ["skin"],
+  "chapter": "All formulas in The Art of Natural Skincare",
+  "keywords": ["phase", "phases", "phase a", "phase b", "phase c", "cool down phase", "water phase", "oil phase", "structure"],
+  "question_variations": [
+    "What does Phase A mean?",
+    "What is a cool-down phase?",
+    "How is a formula structured?"
+  ],
+  "short_answer": "Groups of ingredients handled together at the same stage: water phase, oil phase, actives, preservative and pH adjustment.",
+  "detailed_answer": "The book uses a consistent structure. Phase A: water or hydrosols with water-soluble ingredients. Phase B: oils, butters and the emulsifier. Phase C: heat-sensitive actives added during cooling. Phase D: preservation. Phase E: pH adjustment.\n\nA typical cream in the book is 55–75% water phase, 15–27% oil phase (including 3–5% emulsifier), 2–8% actives, about 1% preservative, and pH adjuster as needed.",
+  "practical_guidance": ["Weigh each phase into its own sterilized container before you start heating."],
+  "warnings": [],
+  "related_topics": ["what-is-an-emulsion", "what-are-active-ingredients", "how-to-adjust-ph"],
+  "faq": true
+ },
+ {
+  "id": "why-does-my-emulsion-separate",
+  "title": "Why did my emulsion separate?",
+  "category": "Formulation",
+  "book": ["skin"],
+  "chapter": "Barrier Repair Cream (method)",
+  "keywords": ["separate", "separated", "separation", "split", "emulsion broke", "cream separated", "oil on top", "unstable", "splitting", "formulation separates"],
+  "question_variations": [
+    "My cream split",
+    "Why is oil separating from my lotion?",
+    "What should I do if my formulation separates?"
+  ],
+  "coverage": "gap",
+  "gap": "The books give a detailed emulsifying method but don't troubleshoot a separated emulsion.",
+  "short_answer": "The available book material does not provide enough information to answer this reliably.",
+  "detailed_answer": "What the books do establish is the method their emulsions rely on: an emulsifier at 3–5% plus cetearyl alcohol, both phases heated to the same 70–72 °C, the oil poured into the water in a thin stream, 3–4 minutes of high-speed mixing, then slow stirring while the cream cools, and a 24-hour rest. Comparing your process against those steps is the closest the books come to this question.",
+  "practical_guidance": [],
+  "warnings": [],
+  "related_topics": ["what-is-an-emulsion", "formula-phases"],
+  "faq": false
+ },
+ {
+  "id": "serum-vs-cream",
+  "title": "What's the difference between a serum and a cream?",
+  "category": "Formulation",
+  "book": ["skin"],
+  "chapter": "Copper Peptide Renewal Serum · Barrier Repair Cream",
+  "keywords": ["serum", "cream", "difference", "serum vs cream", "gel serum"],
+  "question_variations": [
+    "Serum vs cream?",
+    "Is a serum lighter than a cream?"
+  ],
+  "coverage": "partial",
+  "gap": "The books don't define the two terms side by side.",
+  "short_answer": "The books don't define the terms side by side, but their formulas show the difference: the serum is a water-based gel, while the creams are emulsions of oil and water.",
+  "detailed_answer": "The Copper Peptide Renewal Serum is built on a light gel of water, hyaluronic acid and glycerin thickened with Aristoflex AVC, carrying peptides and needing no oil phase. The Barrier Repair Cream and Cellular Renewal Elixir are oil-in-water emulsions: an oil phase with an emulsifier, heated and combined with a water phase. The book's oil-only products, such as the Omega-Renewal Facial Elixir, are a third type, with no water at all.",
+  "practical_guidance": [],
+  "warnings": [],
+  "related_topics": ["what-is-an-emulsion", "how-to-make-a-gel", "what-are-active-ingredients"],
+  "faq": false
+ },
+ {
+  "id": "what-are-active-ingredients",
+  "title": "What are active ingredients, and when do I add them?",
+  "category": "Formulation",
+  "book": ["skin"],
+  "chapter": "Barrier Repair Cream · Cellular Renewal Elixir · Copper Peptide Renewal Serum",
+  "keywords": ["active", "actives", "active ingredients", "peptides", "panthenol", "niacinamide", "cool down", "heat sensitive", "40 degrees"],
+  "question_variations": [
+    "What are actives?",
+    "Why add actives at 40 degrees?",
+    "When do I add peptides?"
+  ],
+  "short_answer": "Actives are the ingredients chosen for a specific effect, such as panthenol, peptides or niacinamide. Most are heat-sensitive, so they go into the cooling product at 38–40 °C.",
+  "detailed_answer": "Examples from the book: D-panthenol for barrier repair, allantoin and bisabolol for soothing, niacinamide for sebum regulation, salicylic acid and Azeclair for problem skin, caffeine for puffiness, and peptides such as GHK-Cu, Argireline, Matrixyl and Progeline for aging concerns.\n\nLong exposure to heat can break them down, so they're added to the cooling emulsion, typically at 38–40 °C, before the preservative at about 35 °C. Peptides are stirred in by hand or on the lowest speed so high shear doesn't denature them.",
+  "practical_guidance": [
+    "Dissolve hard-to-dissolve actives (Azeclair, salicylic acid, caffeine, troxerutin) in 5–10 g of the water phase first, warming to 40 °C if needed.",
+    "Add actives one at a time."
+  ],
+  "warnings": ["Don't combine copper peptides with strong acids (>10%) or retinol, and don't combine acids with retinol."],
+  "related_topics": ["formula-phases", "copper-peptide-serum-color", "what-is-an-emulsion"],
+  "faq": true
+ },
+ {
+  "id": "what-is-a-hydrosol",
+  "title": "What is the purpose of a hydrosol?",
+  "category": "Ingredients",
+  "book": ["skin", "soap"],
+  "chapter": "Calming Chamomile Foam Cleanser · Clarifying Bio-Balance Toner · Fresh-Cut Rose Luxury Bar",
+  "keywords": ["hydrosol", "flower water", "floral water", "rose water", "witch hazel", "neroli", "chamomile water"],
+  "question_variations": [
+    "What is a hydrosol?",
+    "Can I replace water with a hydrosol?"
+  ],
+  "short_answer": "Hydrosols replace some or all of the water in a formula and bring their own properties: soothing, toning, astringent or refreshing.",
+  "detailed_answer": "In the skincare book, chamomile flower water (55.6%) is the soothing base of the foam cleanser. The toner combines witch hazel (a natural astringent for pores and oil), peppermint (refreshing, cooling) and rose hydrosol (soothing, softening acid irritation). Neroli hydrosol tones and balances in the anti-aging cream, and immortelle hydrosol forms the base of the firming gel.\n\nIn soap, damask rose hydrosol replaces part of the liquid in the Fresh-Cut Rose bar. It's added to the oils, because hot lye water would destroy its compounds.",
+  "practical_guidance": ["Treat hydrosols like water: they need a preservative in the finished product."],
+  "warnings": [],
+  "related_topics": ["do-i-need-a-preservative", "juice-and-hydrosol-in-soap"],
+  "faq": true
+ },
+ {
+  "id": "do-i-need-a-preservative",
+  "title": "Do I need a preservative?",
+  "category": "Formulation",
+  "book": ["skin"],
+  "chapter": "All water-based formulas in The Art of Natural Skincare",
+  "keywords": ["preservative", "preserve", "preservation", "mold", "bacteria", "microbes", "geogard", "leucidal", "natural preservative", "water based"],
+  "question_variations": [
+    "Why do creams need preservatives?",
+    "Which preservative should I use?",
+    "Do oils need a preservative?"
+  ],
+  "short_answer": "Any product containing water does. Anhydrous products (oils, butters, scrubs, bath salts) don't, as long as water never gets in.",
+  "detailed_answer": "Water, including hydrosols, lets microbes grow, so every water-containing formula in the book has a broad-spectrum preservative. The book names specific systems: Geogard Ultra (about 1%), Leucidal Liquid (2%, a 'natural' option), Geogard 221 (1%), Geogard ECT (0.5–1%, stable at acidic pH), Euxyl PE 9010 (0.8%) and LiquaPar Optima (0.8–1.2%). Caprylyl glycol boosts preservatives, and disodium EDTA protects peptides by binding metal ions.\n\nOil-only products rely on antioxidants such as vitamin E and rosemary CO2 extract to slow rancidity.",
+  "practical_guidance": [
+    "Add the preservative at about 35 °C, after the actives.",
+    "If you can't get a specific preservative, use another named system at its maker's recommended dose."
+  ],
+  "warnings": ["The book drops silver citrate as 'weak and photosensitive'."],
+  "related_topics": ["antioxidants-and-rancidity", "shelf-life-of-homemade-products", "how-to-sterilize-tools"],
+  "faq": true
+ },
+ {
+  "id": "antioxidants-and-rancidity",
+  "title": "How do I stop oils going rancid?",
+  "category": "Ingredients",
+  "book": ["skin", "soap"],
+  "chapter": "Omega-Renewal Facial Elixir · Interpreting Soap Calculator Quality Values",
+  "keywords": ["rancid", "rancidity", "oxidation", "vitamin e", "tocopherol", "rosemary extract", "antioxidant", "smell", "orange spots", "dos"],
+  "question_variations": [
+    "How do I know if my oil has gone bad?",
+    "What does vitamin E do?",
+    "What are dreaded orange spots?"
+  ],
+  "short_answer": "Use stable oils, add an antioxidant like vitamin E or rosemary CO2 extract, and store products cool and dark.",
+  "detailed_answer": "Signs of rancidity in the skincare book: a sharp smell like old cooking oil, a sticky or stringy texture, sediment or strong cloudiness, or darkening, and for a cleansing oil, no longer turning milky in water. Throw it away.\n\nIn soap, oils high in unsaturated fats raise the risk of rancid 'dreaded orange spots'. That's reflected in the calculator's iodine value (ideally under 60). Fresh food additives shorten shelf life too, so the book suggests an antioxidant or chelator and a 6–12 month use-by date.",
+  "practical_guidance": [
+    "Protect oxidation-prone oils like grape seed with vitamin E.",
+    "Bottle facial oils in amber or cobalt glass."
+  ],
+  "warnings": [],
+  "related_topics": ["do-i-need-a-preservative", "choosing-a-carrier-oil", "shelf-life-of-homemade-products"],
+  "faq": false
+ },
+ {
+  "id": "how-to-make-a-gel",
+  "title": "How do I make a gel without lumps?",
+  "category": "Formulation",
+  "book": ["skin"],
+  "chapter": "Body Contouring & Firming Gel · Copper Peptide Renewal Serum",
+  "keywords": ["gel", "lumps", "xanthan", "konjac", "carbomer", "aristoflex", "thickener", "gum", "thicken"],
+  "question_variations": [
+    "Why is my gel lumpy?",
+    "How do I use xanthan gum?"
+  ],
+  "short_answer": "Pre-disperse natural gums in glycerin before adding them to water, and sprinkle polymer powders slowly while stirring.",
+  "detailed_answer": "For gum gels such as the firming gel, mix konjac mannan and xanthan gum into glycerin as a lump-free slurry, pour it into room-temperature water while mixing on low, and let it rest 5–10 minutes. For polymer gels such as the serum, sprinkle Aristoflex AVC or carbomer into the water while stirring for 10–15 minutes. Some polymers are heat-sensitive, so build the gel at room temperature.",
+  "practical_guidance": ["Add peptides to a finished gel by hand."],
+  "warnings": [],
+  "related_topics": ["serum-vs-cream", "formula-phases"],
+  "faq": false
+ },
+ {
+  "id": "choosing-a-carrier-oil",
+  "title": "How do I choose a carrier oil?",
+  "category": "Ingredients",
+  "book": ["skin", "soap"],
+  "chapter": "Omega-Renewal Facial Elixir · Interpreting Soap Calculator Quality Values",
+  "keywords": ["carrier oil", "choose oil", "which oil", "face oil", "best oil", "light oil", "dry skin oil", "oily skin", "jojoba", "squalane", "marula"],
+  "question_variations": [
+    "Which oil is best for the face?",
+    "What oil should I use?",
+    "How do I choose the right oil?"
+  ],
+  "short_answer": "By what you need it to do. For the face, the books use light, fast-absorbing oils; richer butters belong in body care.",
+  "detailed_answer": "In the facial oil, squalane and marula come first as the lightest oils, followed by camellia, argan and jojoba. Jojoba resembles skin's own sebum and is non-comedogenic. Grape seed and camellia are light and fast-absorbing. Shea, cocoa and mango butters are rich enough that the book warns its body butter is too heavy, and possibly comedogenic, for the face.\n\nIn soap, the choice is about how each oil changes the bar: coconut for hardness and lather, olive for mildness and conditioning, castor for stable lather, butters for creaminess.",
+  "practical_guidance": [
+    "Blend from lightest to richest.",
+    "Add vitamin E to oxidation-prone oils.",
+    "Apply facial oil to damp skin."
+  ],
+  "warnings": [],
+  "related_topics": ["how-oils-affect-soap", "facial-oil-on-damp-skin", "antioxidants-and-rancidity"],
+  "faq": true
+ },
+ {
+  "id": "facial-oil-on-damp-skin",
+  "title": "Why should facial oil go on damp skin?",
+  "category": "Natural Skincare",
+  "book": ["skin"],
+  "chapter": "Omega-Renewal Facial Elixir",
+  "keywords": ["facial oil", "face oil", "damp skin", "how to apply oil", "greasy"],
+  "question_variations": ["How do I use a face oil?", "Why does my face oil feel greasy?"],
+  "short_answer": "On damp skin, the oil forms a micro-emulsion that spreads evenly, absorbs better and doesn't leave a greasy film.",
+  "detailed_answer": "The book recommends 2–3 drops of the Omega-Renewal Facial Elixir pressed into damp skin. The oil is anhydrous and needs no preservative; it's bottled in amber or cobalt glass, rested 24–48 hours, stored at 18–22 °C rather than in the fridge, and keeps 9–12 months.",
+  "practical_guidance": ["Use completely dry tools when making oil blends: moisture causes spoilage."],
+  "warnings": ["Keep total essential oil at or below 1% in facial products."],
+  "related_topics": ["choosing-a-carrier-oil", "essential-oils-on-the-face"],
+  "faq": false
+ },
+ {
+  "id": "essential-oils-on-the-face",
+  "title": "How much essential oil is safe in face products?",
+  "category": "Natural Skincare",
+  "book": ["skin"],
+  "chapter": "Omega-Renewal Facial Elixir and safety notes",
+  "keywords": ["essential oil face", "how much essential oil", "phototoxic", "citrus", "bergamot", "face limit", "1%"],
+  "question_variations": ["Can I use essential oils on my face?", "Which essential oils are phototoxic?"],
+  "short_answer": "No more than 1% in total, or 0.3 g in a 30 g product. Avoid phototoxic citrus oils in daytime face care.",
+  "detailed_answer": "The book names bergamot, orange and lemon as phototoxic. For comparison, it uses about 1–1.5% essential oil in bath salts and up to 2% fragrance to mask the smell of raw shea in body butter.",
+  "practical_guidance": ["In leave-on products, choose bergapten-free (FCF) bergamot."],
+  "warnings": ["Never apply essential oils neat or take them internally."],
+  "related_topics": ["too-much-fragrance", "patch-testing", "essential-vs-fragrance-oils"],
+  "faq": true
+ },
+ {
+  "id": "grainy-body-butter",
+  "title": "Why is my body butter grainy?",
+  "category": "Natural Skincare",
+  "book": ["skin"],
+  "chapter": "Whipped Shea & Mango Body Butter · Chocolate Orange Body Butter",
+  "keywords": ["grainy", "gritty", "body butter", "shea", "crystals", "whipped butter", "lumps"],
+  "question_variations": ["How do I whip body butter?", "Why does my shea butter have grains?"],
+  "short_answer": "Shea and cocoa butter formed large, unstable crystals as they cooled. Controlled cooling and longer whipping prevent it.",
+  "detailed_answer": "The book's whipped-butter method: melt gently (never above 75 °C), cool to 25–30 °C and add liquid oils, vitamin E and essential oil. Refrigerate 20–50 minutes until an opaque film sets on top (set, not frozen), then whip 5–30 minutes, adding fragrance in the last minute. Let it set 12–24 hours. You can also 'seed' the cooling melt with a small piece of solid butter.",
+  "practical_guidance": ["Whip the shea and mango butter for at least 15–20 minutes."],
+  "warnings": ["The body butters are too rich, and possibly comedogenic, for the face."],
+  "related_topics": ["choosing-a-carrier-oil", "shelf-life-of-homemade-products"],
+  "faq": true
+ },
+ {
+  "id": "copper-peptide-serum-color",
+  "title": "Why is copper peptide serum blue, and what if it turns green?",
+  "category": "Natural Skincare",
+  "book": ["skin"],
+  "chapter": "Copper Peptide Renewal Serum",
+  "keywords": ["copper peptide", "ghk-cu", "blue", "green", "brown", "oxidized", "serum color"],
+  "question_variations": ["My copper serum turned green"],
+  "short_answer": "GHK-Cu is naturally sapphire blue. Green or brown means it may have oxidized and lost stability.",
+  "detailed_answer": "Disodium EDTA is included to delay oxidation. The serum is kept at pH 6.0–6.5, since peptides are sensitive to pH jumps, and has a 6-month shelf life.",
+  "practical_guidance": ["Stir peptides in by hand or at the lowest mixer speed."],
+  "warnings": ["Don't layer copper peptides with strong acids (>10%) or retinol."],
+  "related_topics": ["what-are-active-ingredients", "why-is-ph-important"],
+  "faq": false
+ },
+ {
+  "id": "exfoliating-toner-ph",
+  "title": "Why does an exfoliating toner need such a low pH?",
+  "category": "Natural Skincare",
+  "book": ["skin"],
+  "chapter": "Clarifying Bio-Balance Toner",
+  "keywords": ["toner", "salicylic", "bha", "aha", "exfoliating", "acid toner", "3.8", "spf"],
+  "question_variations": ["Is an acid toner safe?", "Can I use salicylic acid with retinol?"],
+  "short_answer": "Salicylic acid only exfoliates below pH 4.5, so the toner is set at 3.8–4.2. Lactic acid and Azeclair also work better in acidic conditions.",
+  "detailed_answer": "The book's toner combines witch hazel, peppermint and rose hydrosols with Azeclair, sodium lactate, panthenol and 0.5% salicylic acid. It's aimed at oily and problem skin and isn't suitable for dry skin.",
+  "practical_guidance": ["Pre-dissolve Azeclair and salicylic acid in 5–10 g of warm hydrosol before adding the rest."],
+  "warnings": ["Wear SPF 30+ daily while using it, and don't apply it at the same time as retinol."],
+  "related_topics": ["why-is-ph-important", "patch-testing"],
+  "faq": false
+ },
+ {
+  "id": "shelf-life-of-homemade-products",
+  "title": "How long do homemade skincare products last?",
+  "category": "Natural Skincare",
+  "book": ["skin"],
+  "chapter": "Use and storage notes in each formula",
+  "keywords": ["shelf life", "how long", "expire", "expiry", "last", "keep", "storage", "months"],
+  "question_variations": ["When do homemade products expire?", "How should I store homemade skincare?"],
+  "short_answer": "From the book: cleanser, creams and toner 9 months; peptide serum and eye gel 6 months; facial oil 9–12 months; cleansing oil and shower gel 12 months; butters, scrubs and bath salts 6 months unopened, 3 months opened.",
+  "detailed_answer": "These shelf lives assume the book's full protocol: sterilized tools and containers, the named preservative systems in water-based products, and antioxidants in oil-based ones. Airtight, suitable packaging matters too: airless pumps for gels, dark glass for oils.",
+  "practical_guidance": ["Label every product with its date and batch."],
+  "warnings": [],
+  "related_topics": ["do-i-need-a-preservative", "antioxidants-and-rancidity", "how-to-sterilize-tools"],
+  "faq": true
+ },
+ {
+  "id": "scrubs-and-polysorbate",
+  "title": "Why do the body scrubs contain Polysorbate 80?",
+  "category": "Natural Skincare",
+  "book": ["skin"],
+  "chapter": "Invigorating Coffee & Orange Body Scrub",
+  "keywords": ["scrub", "polysorbate", "greasy", "rinse", "coffee scrub", "sugar scrub", "salt scrub", "coffee grounds"],
+  "question_variations": ["Why is my scrub greasy?", "Can I use used coffee grounds in a scrub?"],
+  "short_answer": "It emulsifies the oils with water on the skin, so the scrub rinses off as a milky emulsion instead of leaving a greasy film.",
+  "detailed_answer": "The scrubs use 4–5% Polysorbate 80. Melt the butters, stir in the Polysorbate, add liquid oils, chill to a frosting consistency, then fold in the exfoliants, extracts and essential oils. Use fresh, dry, finely ground coffee: used grounds bring in moisture and bacteria.",
+  "practical_guidance": ["Keep water out of the jar; scrubs are anhydrous and have no preservative."],
+  "warnings": ["Red pepper (Capsicum) extract in the coffee scrub is potent: wear gloves, keep it away from eyes and broken skin, and wash your hands afterwards."],
+  "related_topics": ["do-i-need-a-preservative", "bath-salts-clumping"],
+  "faq": false
+ },
+ {
+  "id": "bath-salts-clumping",
+  "title": "Why are my bath salts fizzing or clumping in the jar?",
+  "category": "Natural Skincare",
+  "book": ["skin"],
+  "chapter": "Effervescent Aromatic Bath Salt",
+  "keywords": ["bath salt", "fizz", "clump", "moisture", "humidity", "effervescent"],
+  "question_variations": ["How do I store bath salts?"],
+  "short_answer": "They've been exposed to moisture. Make and store them completely dry.",
+  "detailed_answer": "Use completely dry tools, mix the dry base quickly to limit exposure to humidity, and air-dry the finished salts 4–8 hours before potting. Store airtight, away from the bathroom; a silica gel sachet helps. The recipe's fizz comes from baking soda and citric acid, which react as soon as they meet water.",
+  "practical_guidance": ["Use 100–150 g per bath."],
+  "warnings": [],
+  "related_topics": ["scrubs-and-polysorbate", "shelf-life-of-homemade-products"],
+  "faq": false
+ },
+ {
+  "id": "double-cleansing",
+  "title": "How do I double cleanse with a cleansing oil?",
+  "category": "Natural Skincare",
+  "book": ["skin"],
+  "chapter": "Biphase Cleansing Elixir",
+  "keywords": ["double cleansing", "cleansing oil", "biphase", "makeup removal", "oil cleanser"],
+  "question_variations": ["How do I use a cleansing oil?"],
+  "short_answer": "Massage the oil onto dry skin with dry hands, add water so it turns milky, rinse, then follow with a mild foam cleanser.",
+  "detailed_answer": "Massage for 30–60 seconds before adding water. The cleansing oil emulsifies in cold water thanks to polyglyceryl-4 isostearate. Because it's anhydrous, it needs no preservative and keeps about 12 months. If it stops turning milky in water, it has gone off.",
+  "practical_guidance": ["Keep the bottle dry and the cap closed."],
+  "warnings": [],
+  "related_topics": ["antioxidants-and-rancidity", "why-is-ph-important"],
+  "faq": false
+ }
+]

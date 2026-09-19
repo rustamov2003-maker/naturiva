@@ -1,0 +1,183 @@
+[
+ {
+  "id": "is-this-just-a-recipe-book",
+  "q": "Is this just a recipe book?",
+  "keywords": [
+   "just",
+   "recipe",
+   "book",
+   "recipes",
+   "only",
+   "theory"
+  ],
+  "a": "<p>No. Each book opens with a full safety and hygiene protocol, and the soapmaking volume spends seven chapters on theory — fragrance, essential oils, the gel phase, additives, cure times, infused oils and soap-calculator values — before the first recipe.</p><p>The recipes themselves are built for learning: ingredient functions, phase-by-phase methods, target temperatures and pH, shelf life, and a troubleshooting FAQ for every formula. The author closes the soap book with the idea behind the whole series: <em>“Do not become dependent on recipes. Learn to understand formulas.”</em></p>"
+ },
+ {
+  "id": "who-are-the-books-for",
+  "q": "Who are the books for?",
+  "keywords": [
+   "who",
+   "for",
+   "audience"
+  ],
+  "a": "<p>Anyone who wants to make natural skincare, soap or candles and understand what they're doing — from complete beginners (the books state that no prior experience is needed) to makers who already have a routine and want more consistent results. Later soap recipes are marked as advanced, so there's room to grow.</p>"
+ },
+ {
+  "id": "is-it-suitable-for-complete-beginners",
+  "q": "Is it suitable for complete beginners?",
+  "keywords": [
+   "beginner",
+   "new",
+   "never",
+   "made",
+   "start",
+   "suitable",
+   "complete"
+  ],
+  "a": "<p>Yes. Safety comes first, every step is spelled out with temperatures and weights, and common mistakes are explained in each recipe's FAQ. A few techniques — such as very high lye concentrations — are flagged for experienced makers only.</p>"
+ },
+ {
+  "id": "which-book-should-i-start-with",
+  "q": "Which book should I start with?",
+  "keywords": [
+   "which",
+   "book",
+   "start",
+   "first",
+   "choose",
+   "recommend"
+  ],
+  "a": "<p>Start with the craft you want to make. <strong>The Art of Personal Soapmaking</strong> is the most theory-heavy and the best grounding in how ingredients react. <strong>The Art of Natural Skincare</strong> teaches emulsions, pH, preservation and actives through seventeen formulas. <strong>The Big Book of Sweet Dessert Candles</strong> covers waxes, wicks and temperatures before its projects. Not sure? <a href=\"{ROOT}start.html\">Find your starting point</a>.</p>"
+ },
+ {
+  "id": "how-are-the-books-different",
+  "q": "How are the books different?",
+  "keywords": [
+   "different",
+   "difference",
+   "compare",
+   "books",
+   "each"
+  ],
+  "a": "<p>They share an author, a safety-first approach and a teaching style, but each covers its own craft. The soap and skincare books both open with the same professional protocol. The soap book then goes deep into theory: gel phase, curing, additives, calculators. The skincare book is organized formula by formula, each with phases, INCI names and a target pH. The candle book is more visual and project-based, and adds a section on home fragrance and perfume.</p>"
+ },
+ {
+  "id": "what-will-i-actually-learn",
+  "q": "What will I actually learn?",
+  "keywords": [
+   "learn",
+   "what",
+   "topics",
+   "skills"
+  ],
+  "a": "<p>How to work safely and hygienically; how ingredients behave and why each one is in a formula; how emulsions, gels and anhydrous products are built; how pH and preservation keep products effective and safe; how saponification, superfat, trace, the gel phase and curing shape a bar of soap; and how wax type, wick size, fragrance load and temperature determine how a candle burns.</p>"
+ },
+ {
+  "id": "do-the-books-cover-ingredients-and-raw-materials",
+  "q": "Do the books cover ingredients and raw materials?",
+  "keywords": [
+   "ingredients",
+   "raw",
+   "materials",
+   "inci",
+   "glossary"
+  ],
+  "a": "<p>In depth. The skincare formulas list INCI names and the function of every ingredient; the soap book profiles oils, butters, additives, colorants and ten essential oils; the candle book covers coconut, soy and beeswax, gel, wicks, dyes and natural waxes. Our <a href=\"{ROOT}ingredients.html\">ingredient glossary</a> draws on all of it.</p>"
+ },
+ {
+  "id": "do-they-explain-the-reasoning-behind-each-formula",
+  "q": "Do they explain the reasoning behind each formula?",
+  "keywords": [
+   "reasoning",
+   "why",
+   "explain",
+   "understand",
+   "formula"
+  ],
+  "a": "<p>That's the point of the series. You'll learn why a cleanser sits at pH 4.5–5.5, why peptides go in below 40 °C, why a coconut bar can carry a 20% superfat when an olive bar can't, and why container wax fails in a pillar mold.</p>"
+ },
+ {
+  "id": "do-they-cover-troubleshooting",
+  "q": "Do they cover troubleshooting?",
+  "keywords": [
+   "troubleshooting",
+   "problems",
+   "fix",
+   "wrong"
+  ],
+  "a": "<p>Yes. Every soap recipe has its own FAQ — seizing, ricing, soda ash, partial gel, scorched milk, crumbly hot process. The candle book covers wet spots, uneven or cracked tops, tunneling, flaring and failed whipped toppings. The skincare book covers grainy butters, rancid oils, fizzing bath salts and oxidized copper peptides.</p>"
+ },
+ {
+  "id": "what-topics-are-included",
+  "q": "What topics are included?",
+  "keywords": [
+   "topics",
+   "included",
+   "contents",
+   "chapters"
+  ],
+  "a": "<p><strong>The Art of Natural Skincare</strong> — a safety protocol and 17 formulas: cleansers, creams, facial oil, toner, serum, eye gel, body butters, scrubs, bath salt, firming gel and shower gel.</p><p><strong>The Art of Personal Soapmaking</strong> — safety, seven theory chapters and ten cold- and hot-process recipes.</p><p><strong>The Big Book of Sweet Dessert Candles</strong> — waxes, wicks, dyes, gel and troubleshooting, dessert-inspired projects, plus solid perfumes, reed diffusers and a massage candle.</p><p>A complete edition combines the soap and skincare volumes. See <a href=\"{ROOT}books.html\">Books</a> for the full contents.</p>"
+ },
+ {
+  "id": "where-should-i-start-if-i-m-completely-new",
+  "q": "Where should I start if I'm completely new?",
+  "keywords": [
+   "start",
+   "first",
+   "where",
+   "begin",
+   "new",
+   "beginner",
+   "which",
+   "section",
+   "study",
+   "first",
+   "order"
+  ],
+  "a": "<p>Start with the safety protocol — it opens every book and applies to everything that follows. Then choose one craft. In soapmaking, read the theory chapters before any recipe. In skincare, the first formula, a chamomile foam cleanser, is made without heat or emulsifying. In candles, begin with the basics — waxes, wicks and temperatures — and the first project, a decorative container candle.</p>"
+ },
+ {
+  "id": "can-i-use-the-books-for-self-study",
+  "q": "Can I use the books for self-study?",
+  "keywords": [
+   "self",
+   "study",
+   "alone",
+   "course",
+   "teacher"
+  ],
+  "a": "<p>Yes. They're written as self-contained manuals: step-by-step protocols, exact weights and temperatures, and a question-and-answer section with each recipe. The author describes the book as “a foundational manual and a trusted companion on your path to mastering natural formulation.”</p>"
+ },
+ {
+  "id": "do-i-need-special-equipment",
+  "q": "Do I need special equipment?",
+  "keywords": [
+   "equipment",
+   "tools",
+   "need",
+   "buy",
+   "special"
+  ],
+  "a": "<p>A few precise tools matter more than anything fancy. For soap: a digital scale accurate to 0.1 g, heat-resistant containers, a stick blender, a thermometer, pH strips, molds, and protective gear — goggles, nitrile gloves, a respirator for powders and long sleeves. For skincare, add a mixer and a way to sterilize tools. For candles: a double boiler, a kitchen thermometer and scale, wicks with holders and stickers, glasses or silicone molds, and ideally a heat gun.</p>"
+ },
+ {
+  "id": "can-i-make-products-to-sell",
+  "q": "Can I make products to sell?",
+  "keywords": [
+   "sell",
+   "business",
+   "commercial",
+   "market",
+   "customers",
+   "others",
+   "license",
+   "licence",
+   "legal",
+   "etsy",
+   "shop",
+   "selling",
+   "regulations"
+  ],
+  "a": "<p>The books give you a foundation, not a license. As the skincare book notes, products for sale need additional stability, microbiological and safety testing, plus regulatory and packaging assessment. Check the rules in your market before selling anything.</p>"
+ }
+]

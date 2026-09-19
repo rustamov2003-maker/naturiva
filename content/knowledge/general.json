@@ -1,0 +1,132 @@
+[
+ {
+  "id": "where-to-start-as-a-beginner",
+  "title": "Where should I start as a complete beginner?",
+  "category": "Getting Started",
+  "book": ["skin", "soap", "candles"],
+  "chapter": "The Non-Negotiable Protocol (skincare and soap) · Safety Rules and Basics of Candle Making (candles)",
+  "keywords": ["beginner", "start", "new", "first", "never made", "where begin", "complete beginner", "which section first", "study first", "no experience"],
+  "question_variations": [
+    "I'm completely new. Where should I start?",
+    "I've never made soap before, where do I begin?",
+    "Which section should I study first as a beginner?",
+    "Is this suitable for a complete beginner?",
+    "What should I learn first?"
+  ],
+  "short_answer": "Start with safety, then choose one craft and read its foundations before your first project.",
+  "detailed_answer": "Every book opens with its safety chapter: The Non-Negotiable Protocol in the skincare and soap books, and Safety Rules in the candle book. It applies to everything that follows, so read it first.\n\nThen pick one craft. The soap book gives you seven theory chapters (fragrance, essential oils, the gel phase, additives, curing, infused oils and soap-calculator values) before any recipe. The candle book starts with its basics: waxes, wicks, temperatures and dyes. The skincare book's first formula, a chamomile foam cleanser, is a cold-mixed product with no emulsifying step.",
+  "practical_guidance": [
+    "Read the safety chapter and set up your workspace before buying ingredients.",
+    "Choose one craft and read its theory chapters before attempting a project.",
+    "Make the first project in the book exactly as written before changing anything.",
+    "Keep notes on every batch: temperatures, weights and results."
+  ],
+  "warnings": ["Soapmaking involves sodium hydroxide (lye), a caustic chemical. Don't start a soap recipe until you have protective gear and have read the lye-handling rules."],
+  "related_topics": ["safety-protocol", "equipment-you-need", "how-to-approach-formulation"],
+  "follow_up": {
+    "prompt": "Which craft are you most interested in?",
+    "options": [
+      { "label": "Soapmaking", "id": "cold-vs-hot-process-soap" },
+      { "label": "Skincare", "id": "how-to-approach-formulation" },
+      { "label": "Candle making", "id": "container-vs-pillar-wax" }
+    ]
+  },
+  "faq": true
+ },
+ {
+  "id": "equipment-you-need",
+  "title": "What equipment do I need?",
+  "category": "Getting Started",
+  "book": ["soap", "skin", "candles"],
+  "chapter": "The Non-Negotiable Protocol (skincare and soap) · Necessary Tools (candles)",
+  "keywords": ["equipment", "tools", "need", "buy", "special equipment", "scale", "thermometer", "stick blender", "double boiler", "heat gun", "gear"],
+  "question_variations": [
+    "Do I need special equipment?",
+    "What tools do I need to make soap?",
+    "What equipment do I need for candles?",
+    "What should I buy before starting?"
+  ],
+  "short_answer": "A few precise tools: an accurate scale, a thermometer and the right protective gear matter most.",
+  "detailed_answer": "For soap, the recipes rely on a digital scale accurate to 0.1 g, heat-resistant containers, a stick blender, a thermometer, pH strips and molds. Protective gear comes first: splash-proof goggles, nitrile gloves, a particulate respirator when weighing powders, a long-sleeved lab coat or apron and closed-toe shoes.\n\nSkincare uses the same precision tools, plus a mixer for emulsions and a way to sterilize everything that touches the product: a pressure cooker, a dry-heat oven or 70% isopropyl alcohol.\n\nFor candles, the book's projects use a double boiler (a saucepan with a melting container), a kitchen thermometer, kitchen scales, wicks with holders and double-sided stickers, glasses or silicone molds, and a heat gun for finishing surfaces.",
+  "practical_guidance": [
+    "Buy a scale that reads to 0.1 g: lye and actives are weighed that precisely.",
+    "Keep dedicated tools for making products, separate from your kitchen.",
+    "A heat gun is worth having for candles; a hair dryer is only a stopgap."
+  ],
+  "warnings": ["Never melt wax over an open flame. The candle book specifies a double boiler only."],
+  "related_topics": ["safety-protocol", "how-to-sterilize-tools", "where-to-start-as-a-beginner"],
+  "faq": true
+ },
+ {
+  "id": "safety-protocol",
+  "title": "What safety precautions do the books require?",
+  "category": "Safety",
+  "book": ["skin", "soap"],
+  "chapter": "The Non-Negotiable Protocol: Safety, Sterility & the Professional Mindset",
+  "keywords": ["safety", "precautions", "protective", "gloves", "goggles", "respirator", "hygiene", "ppe", "workspace", "ventilation", "safe"],
+  "question_variations": [
+    "Is soapmaking dangerous?",
+    "What protective gear do I need?",
+    "How do I work safely?",
+    "What should I know about safety?"
+  ],
+  "short_answer": "The books treat safety as non-negotiable: full protective gear, a zoned and disinfected workspace, good ventilation and an emergency plan.",
+  "detailed_answer": "The opening chapter puts it plainly: there is no home version of safety, only the correct protocol. Before touching any ingredient you cover your hair, wear splash-proof goggles when handling lye or acids, wear a particulate respirator when weighing fine powders, and wear a dedicated long-sleeved coat or apron and closed-toe shoes.\n\nHands are washed, sanitized with 70% alcohol, gloved, and the gloves are sprayed with alcohol too. Surfaces are disinfected, wiped with alcohol and covered, and the space is split into a prep zone, an active formulation zone and a curing or packaging zone. Ventilation is confirmed before you start, and a spill kit, eyewash access and labeled waste containers are ready.",
+  "practical_guidance": [
+    "Run through the book's pre-formulation checklist before every session.",
+    "Silence your phone: focus is part of the protocol.",
+    "Keep a Safety Data Sheet on file for every active ingredient you use."
+  ],
+  "warnings": [
+    "Lye on skin: flush with running water for 15+ minutes. Vinegar is for surface spills only, never skin.",
+    "Chemicals in the eyes: flush for 20–30 minutes with eyelids held open and get medical help immediately."
+  ],
+  "related_topics": ["lye-safety", "how-to-sterilize-tools", "patch-testing"],
+  "faq": true
+ },
+ {
+  "id": "how-to-sterilize-tools",
+  "title": "How do I sterilize my tools and containers?",
+  "category": "Safety",
+  "book": ["skin", "soap"],
+  "chapter": "The Non-Negotiable Protocol: The Sterilization Chain",
+  "keywords": ["sterilize", "sterilise", "sterilization", "clean", "disinfect", "autoclave", "pressure cooker", "alcohol", "ipa", "jars", "containers", "hygiene", "contamination"],
+  "question_variations": [
+    "How do I clean my equipment?",
+    "Do I need to sterilize jars?",
+    "How do I prevent contamination?"
+  ],
+  "short_answer": "Follow the four-step sterilization chain: wash, rinse, disinfect or sterilize, then sanitize containers just before filling.",
+  "detailed_answer": "Anything that touches the product goes through four steps. First, mechanical cleaning in hot soapy water. Second, rinsing with distilled or very hot water. Third, disinfection or sterilization: best practice is a pressure cooker or autoclave (15 minutes at 15 PSI) or a dry-heat oven (160 °C for 2+ hours); the standard option is immersing or wiping with 70% isopropyl alcohol and air-drying on a clean rack. Fourth, just before filling, spray the inside of each jar and its threads with alcohol and let it evaporate.",
+  "practical_guidance": [
+    "Air-dry tools on a clean rack; never towel-dry, because towels re-contaminate.",
+    "Sanitize containers immediately before filling, not hours ahead.",
+    "Water-based products are the most vulnerable, so be most careful with creams, toners and gels."
+  ],
+  "warnings": [],
+  "related_topics": ["safety-protocol", "do-i-need-a-preservative", "shelf-life-of-homemade-products"],
+  "faq": true
+ },
+ {
+  "id": "patch-testing",
+  "title": "Do I need to patch test homemade products?",
+  "category": "Safety",
+  "book": ["skin"],
+  "chapter": "Safety notes in each formula",
+  "keywords": ["patch test", "allergy", "reaction", "sensitive", "irritation", "test on skin"],
+  "question_variations": [
+    "How do I patch test?",
+    "What if I react to a product?",
+    "Should I test products on my skin first?"
+  ],
+  "short_answer": "Always. Test every new product on the inner elbow or forearm for 24–48 hours before first use.",
+  "detailed_answer": "The skincare formulas each end with safety notes, and patch testing appears throughout. Apply a small amount to the inner elbow or forearm and wait 24–48 hours, or the full 48 hours for atopic or very reactive skin. Stimulating products such as the firming gel or caffeine eye products can cause mild warmth or tingling, which is normal. Rinse off if burning is strong or lasts.",
+  "practical_guidance": [
+    "Patch test each new batch, not just each new recipe.",
+    "Introduce acid products (AHA/BHA) gradually and keep them away from the eye area."
+  ],
+  "warnings": ["Stop using a product if irritation persists."],
+  "related_topics": ["safety-protocol", "essential-oils-on-the-face", "exfoliating-toner-ph"],
+  "faq": false
+ }
+]

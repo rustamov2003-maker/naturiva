@@ -1,0 +1,42 @@
+<!--meta
+{
+ "title": "Ingredient Glossary: Carrier Oils, Butters, Actives, Waxes & Essential Oils | NATURIVA",
+ "description": "What each ingredient does, how much the books use, and what to watch out for: carrier oils, butters, emulsifiers, actives, preservatives, essential oils, soap additives and candle waxes.",
+ "nav": "ingredients",
+ "scripts": ["glossary.js"]
+}
+-->
+<section class="page-hero">
+  <div class="wrap">
+    <p class="eyebrow">Ingredients</p>
+    <h1>Understand what each ingredient brings to a formula.</h1>
+    <p class="lede">{{INGREDIENT_COUNT}} ingredients from the books: what they do, the levels the formulas use them at, and the cautions the author gives. Search by name, function or concern.</p>
+  </div>
+</section>
+
+<section class="section">
+  <div class="wrap">
+    <div class="filters">
+      <label class="visually-hidden" for="ing-search">Search ingredients</label>
+      <input class="search" id="ing-search" type="search" placeholder="Search: shea, preservative, phototoxic, wick…" autocomplete="off">
+      <div class="chips" role="group" aria-label="Filter by craft">
+        <button class="chip" type="button" data-dom-filter="all" aria-pressed="true">All</button>
+        <button class="chip" type="button" data-dom-filter="skincare" aria-pressed="false">Skincare</button>
+        <button class="chip" type="button" data-dom-filter="soap" aria-pressed="false">Soap</button>
+        <button class="chip" type="button" data-dom-filter="candles" aria-pressed="false">Candles</button>
+      </div>
+    </div>
+    <p class="count" id="ing-count" aria-live="polite"></p>
+    <div class="ing-grid">{{GLOSSARY}}</div>
+    <p class="empty" id="ing-empty" hidden>No ingredients match that search. Try a broader term, or <a href="{ROOT}assistant.html">ask the Knowledge Assistant</a>.</p>
+    <p class="fine-print">Usage levels are those used in the books' formulas and projects. They aren't general maximums. Always check your supplier's technical data.</p>
+  </div>
+</section>
+
+<section class="section tinted">
+  <div class="wrap">
+    <p class="eyebrow">Knowledge articles</p>
+    <h2>Ingredient questions, answered</h2>
+    {{HUB_INGREDIENTS}}
+  </div>
+</section>

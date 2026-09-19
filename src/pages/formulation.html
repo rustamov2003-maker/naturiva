@@ -1,0 +1,112 @@
+<!--meta
+{
+ "title": "Formulation Basics: Emulsions, Preservation, Temperatures & Shelf Life | NATURIVA",
+ "description": "Skincare formulation basics from the books: formula structure, emulsion temperatures, typical percentages, the sterilization chain, shelf life, and a batch scaling tool.",
+ "nav": "formulation",
+ "scripts": ["scaler.js"]
+}
+-->
+<section class="page-hero">
+  <div class="wrap">
+    <p class="eyebrow">Formulation</p>
+    <h1>A formula is a sequence of decisions.</h1>
+    <p class="lede">What goes in, how much, at what temperature, and in what order. These are the principles behind every formula in the books, gathered in one place.</p>
+  </div>
+</section>
+
+<section class="section">
+  <div class="wrap two-col">
+    <nav aria-label="On this page"><ul class="toc">
+      <li><a href="#structure">Formula structure</a></li>
+      <li><a href="#temps">The emulsion timeline</a></li>
+      <li><a href="#chain">The sterilization chain</a></li>
+      <li><a href="#shelf">Shelf life</a></li>
+      <li><a href="#scale">Scale a formula</a></li>
+      <li><a href="#articles">Formulation articles</a></li>
+    </ul></nav>
+    <div class="prose">
+      <h2 id="structure">The structure of a cream</h2>
+      <p>The book's creams follow a consistent architecture. Typical ranges:</p>
+      <div class="table-scroll"><table>
+        <thead><tr><th>Part</th><th class="num">Share</th><th>Includes</th></tr></thead>
+        <tbody>
+          <tr><td><span class="ph ph-water">Water phase</span></td><td class="num">55–75%</td><td>Water or hydrosols, 3–5% glycols or glycerin, water-soluble extracts</td></tr>
+          <tr><td><span class="ph ph-oil">Oil phase</span></td><td class="num">15–27%</td><td>Carrier oils, squalane, 3–5% emulsifier, 1.5–2.5% cetearyl alcohol, ~0.5% vitamin E</td></tr>
+          <tr><td><span class="ph ph-active">Actives</span></td><td class="num">2–8%</td><td>Added below 40 °C</td></tr>
+          <tr><td><span class="ph ph-pres">Preservative</span></td><td class="num">~1%</td><td>Broad-spectrum, added at about 35 °C</td></tr>
+          <tr><td><span class="ph ph-other">pH adjuster</span></td><td class="num">q.s.</td><td>10% citric or lactic acid, drop by drop</td></tr>
+        </tbody>
+      </table></div>
+      <div class="table-scroll"><table>
+        <caption class="visually-hidden">Typical usage levels in the books</caption>
+        <thead><tr><th>Ingredient type</th><th class="num">Range used in the books</th></tr></thead>
+        <tbody>
+          <tr><td>Preservative</td><td class="num">0.5–2%</td></tr>
+          <tr><td>Essential oil in face products</td><td class="num">≤ 1%</td></tr>
+          <tr><td>Panthenol</td><td class="num">1–5%</td></tr>
+          <tr><td>Emulsifier</td><td class="num">3–5%</td></tr>
+          <tr><td>Cetearyl alcohol</td><td class="num">1.5–2.5%</td></tr>
+          <tr><td>Vitamin E</td><td class="num">0.3–3.3%</td></tr>
+          <tr><td>Polysorbate 80 in scrubs</td><td class="num">4–5%</td></tr>
+        </tbody>
+      </table></div>
+
+      <h2 id="temps">The emulsion timeline</h2>
+      <p>From the Barrier Repair Cream method. Each temperature exists to protect something.</p>
+      <ol class="timeline">
+        <li><span class="t">70–72 °C</span><span>Heat oil and water phases separately; hold the water phase about 5 minutes</span></li>
+        <li><span class="t">70–72 °C</span><span>Pour oil into water in a thin stream; mix on high 3–4 minutes</span></li>
+        <li><span class="t">38–40 °C</span><span>Add actives one at a time while cooling</span></li>
+        <li><span class="t">35 °C</span><span>Add the preservative; mix 1–2 minutes; check the pH</span></li>
+        <li><span class="t">25–28 °C</span><span>Stop stirring, pack, and rest 24 hours</span></li>
+      </ol>
+
+      <h2 id="chain">The sterilization chain</h2>
+      <ol>
+        <li><strong>Clean</strong> in hot soapy water.</li>
+        <li><strong>Rinse</strong> with distilled or very hot water.</li>
+        <li><strong>Sterilize or disinfect:</strong> pressure cooker (15 min at 15 PSI), dry-heat oven (160 °C, 2+ hours), or 70% isopropyl alcohol and air-dry. Never towel-dry.</li>
+        <li><strong>Sanitize containers</strong> with alcohol just before filling.</li>
+      </ol>
+
+      <h2 id="shelf">Shelf life, as given in the book</h2>
+      <div class="table-scroll"><table>
+        <thead><tr><th>Product</th><th class="num">Shelf life</th></tr></thead>
+        <tbody>
+          <tr><td>Cleanser, creams, toner</td><td class="num">9 months</td></tr>
+          <tr><td>Peptide serum, eye gel</td><td class="num">6 months</td></tr>
+          <tr><td>Facial oil</td><td class="num">9–12 months</td></tr>
+          <tr><td>Cleansing oil, shower gel</td><td class="num">12 months</td></tr>
+          <tr><td>Butters, scrubs, bath salts, firming gel</td><td class="num">6 months unopened · 3 opened</td></tr>
+        </tbody>
+      </table></div>
+
+      <h2 id="scale">Scale a formula</h2>
+      <p>Enter a formula's weights and choose a new batch size. Percentages are calculated from the weights you enter. The tool loads the book's Calming Chamomile Foam Cleanser as an example.</p>
+      <div class="tool" id="scaler">
+        <div class="tool-row">
+          <label class="field">New batch size (g)<input type="number" id="sc-target" value="100" min="1" step="1" inputmode="decimal"></label>
+          <button class="btn ghost" type="button" id="sc-add">Add ingredient</button>
+          <button class="btn ghost" type="button" id="sc-clear">Clear</button>
+        </div>
+        <div class="table-scroll"><table>
+          <thead><tr><th>Ingredient</th><th class="num">Original g</th><th class="num">%</th><th class="num">New g</th><th><span class="visually-hidden">Remove</span></th></tr></thead>
+          <tbody id="sc-rows"></tbody>
+        </table></div>
+        <div class="tool-out" aria-live="polite">
+          <div>Original total<b id="sc-total">0 g</b></div>
+          <div>New total<b id="sc-newtotal">0 g</b></div>
+        </div>
+      </div>
+      <div class="note"><strong>Scaling soap?</strong><p>Don't scale lye by hand. Re-enter the oils in a lye calculator for every batch size.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="section tinted" id="articles">
+  <div class="wrap">
+    <p class="eyebrow">Knowledge articles</p>
+    <h2>Formulation questions, answered</h2>
+    {{HUB_FORMULATION}}
+  </div>
+</section>

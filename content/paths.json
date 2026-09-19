@@ -1,0 +1,67 @@
+{
+ "levels": [
+  { "id": "new", "label": "I'm completely new" },
+  { "id": "made", "label": "I've made products before" },
+  { "id": "understand", "label": "I want to understand formulation" },
+  { "id": "improve", "label": "I want to improve my technique" },
+  { "id": "troubleshoot", "label": "I'm troubleshooting a problem" },
+  { "id": "explore", "label": "I want to explore several areas" }
+ ],
+ "interests": [
+  { "id": "soap", "label": "Soapmaking" },
+  { "id": "skin", "label": "Skincare" },
+  { "id": "candles", "label": "Candle making" },
+  { "id": "ingredients", "label": "Ingredients" },
+  { "id": "formulation", "label": "Formulation" },
+  { "id": "all", "label": "Everything" }
+ ],
+ "tracks": {
+  "soap": {
+   "book": "soap",
+   "safety": { "title": "Safety fundamentals", "text": "Protective gear, the lye-to-liquid rule and first response.", "topics": ["lye-safety", "safety-protocol"], "chapter": "The Non-Negotiable Protocol: Safety, Sterility & the Professional Mindset" },
+   "foundations": { "title": "How soap works", "text": "Saponification, superfat, trace and the gel phase: the ideas every recipe relies on.", "topics": ["what-is-saponification", "what-is-superfat", "what-is-trace", "what-is-gel-phase"], "chapter": "The Gel Phase in Cold & Hot Process Soapmaking" },
+   "ingredients": { "title": "Understanding the ingredients", "text": "What each oil brings to the bar, and how to read a soap calculator.", "topics": ["how-oils-affect-soap", "soap-calculator-values", "essential-vs-fragrance-oils"], "chapter": "Interpreting Soap Calculator Quality Values" },
+   "process": { "title": "The process", "text": "Cold process versus hot process, and how long each needs to cure.", "topics": ["cold-vs-hot-process-soap", "how-long-should-soap-cure", "water-discount"], "chapter": "Curing Times for Different Soap Formulations" },
+   "project": { "title": "Your first batch", "text": "Castile Soap uses a single oil, which makes it a clear first lesson in trace and patience. Plan for a long cure.", "topics": ["castile-soap-slow"], "chapter": "Castile Soap: Testament of Patience & Purity" },
+   "troubleshooting": { "title": "Troubleshooting", "text": "Acceleration, seizing, soda ash and partial gel: what causes them and what to do.", "topics": ["why-soap-accelerates", "soap-seized-or-riced", "soda-ash-white-coating", "partial-gel-ring-in-soap"], "chapter": "Recipe FAQs throughout the book" },
+   "advanced": { "title": "Advanced techniques", "text": "Dual superfatting, clean layers, milk soaps and hot process.", "topics": ["dual-superfatting", "layered-soap", "milk-in-soap", "what-is-a-macerated-oil"], "chapter": "Goat Milk & Honey Soap · Four Spices Layered Exfoliating Bar" }
+  },
+  "skin": {
+   "book": "skin",
+   "safety": { "title": "Safety & hygiene", "text": "The protocol, the sterilization chain and patch testing.", "topics": ["safety-protocol", "how-to-sterilize-tools", "patch-testing"], "chapter": "The Non-Negotiable Protocol: Safety, Sterility & the Professional Mindset" },
+   "foundations": { "title": "How a formula is built", "text": "Phases, pH and preservation: the framework behind every product.", "topics": ["formula-phases", "why-is-ph-important", "do-i-need-a-preservative"], "chapter": "All formulas in The Art of Natural Skincare" },
+   "ingredients": { "title": "Understanding the ingredients", "text": "Carrier oils, hydrosols and actives: what each does and when it goes in.", "topics": ["choosing-a-carrier-oil", "what-is-a-hydrosol", "what-are-active-ingredients"], "chapter": "Ingredient tables in each formula" },
+   "process": { "title": "The process", "text": "How emulsions, gels and anhydrous products are made.", "topics": ["what-is-an-emulsion", "how-to-make-a-gel", "how-to-adjust-ph"], "chapter": "Barrier Repair Cream" },
+   "project": { "title": "Your first formula", "text": "The Calming Chamomile Foam Cleanser is mixed without heat or emulsifying: a gentle introduction to phases, preservation and pH.", "topics": ["why-is-ph-important"], "chapter": "Calming Chamomile Foam Cleanser" },
+   "troubleshooting": { "title": "Troubleshooting", "text": "Grainy butters, rancid oils, clumping salts and oxidized peptides.", "topics": ["grainy-body-butter", "antioxidants-and-rancidity", "bath-salts-clumping", "copper-peptide-serum-color"], "chapter": "FAQs in each formula" },
+   "advanced": { "title": "Advanced formulation", "text": "Peptides, acids and specialty actives, with their pH windows and incompatibilities.", "topics": ["copper-peptide-serum-color", "exfoliating-toner-ph", "shelf-life-of-homemade-products"], "chapter": "Copper Peptide Renewal Serum · Clarifying Bio-Balance Toner" }
+  },
+  "candles": {
+   "book": "candles",
+   "safety": { "title": "Safety rules", "text": "Double boiler only, the 85 °C limit, and what to do if wax catches fire.", "topics": ["candle-safety"], "chapter": "Safety Rules" },
+   "foundations": { "title": "Waxes & temperatures", "text": "Container versus mold wax, and the temperatures that matter.", "topics": ["container-vs-pillar-wax", "candle-wax-types", "candle-temperatures"], "chapter": "Why Different Waxes Are Needed for Container and Mold Candles" },
+   "ingredients": { "title": "Wicks, fragrance & color", "text": "Sizing a wick, setting the fragrance load and coloring wax correctly.", "topics": ["how-to-choose-a-wick", "candle-fragrance-load", "candle-dyes"], "chapter": "Which Wick Is Best? · Wax Dyes" },
+   "process": { "title": "Pouring, curing & burning", "text": "Attaching the wick, curing, and burning a candle correctly.", "topics": ["attaching-a-wick", "how-to-burn-a-candle", "wick-testing"], "chapter": "How to Burn a Candle Correctly · Wick Testing" },
+   "project": { "title": "Your first candle", "text": "The Decorative Container Candle is the book's first project: one glass, one wick, coconut wax and fragrance.", "topics": ["candle-fragrance-load"], "chapter": "Decorative Container Candle" },
+   "troubleshooting": { "title": "Troubleshooting", "text": "Wet spots, uneven tops and tunneling.", "topics": ["candle-wet-spots", "uneven-candle-top", "why-do-candles-tunnel"], "chapter": "“Wet Spots” / Candle Adhesion · Uneven Top After Pouring a Candle?" },
+   "advanced": { "title": "Advanced projects", "text": "Gel candles, whipped wax piping and sculpted botanicals.", "topics": ["gel-candles"], "chapter": "Gel Candles · Botanical Dried-Flower Candle" }
+  }
+ },
+ "interest_map": {
+  "ingredients": ["skin", "soap"],
+  "formulation": ["skin", "soap"],
+  "all": ["soap", "skin", "candles"]
+ },
+ "sequences": {
+  "new": ["safety", "foundations", "ingredients", "process", "project", "troubleshooting", "advanced"],
+  "made": ["safety", "foundations", "process", "troubleshooting", "advanced"],
+  "understand": ["foundations", "ingredients", "process", "safety", "advanced"],
+  "improve": ["troubleshooting", "process", "ingredients", "advanced", "safety"],
+  "troubleshoot": ["troubleshooting", "foundations", "process", "safety"],
+  "explore": ["safety", "foundations", "project"]
+ },
+ "focus": {
+  "ingredients": ["ingredients", "foundations"],
+  "formulation": ["foundations", "process"]
+ }
+}

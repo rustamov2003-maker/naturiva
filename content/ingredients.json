@@ -1,0 +1,1004 @@
+[
+ {
+  "n": "Chamomile flower water",
+  "cat": "Hydrosol",
+  "dom": [
+   "skincare"
+  ],
+  "fn": "Soothing, anti-inflammatory, toning base for a gentle cleanser.",
+  "use": "55.6% (foam cleanser)"
+ },
+ {
+  "n": "Neroli hydrosol",
+  "cat": "Hydrosol",
+  "dom": [
+   "skincare"
+  ],
+  "fn": "Tones, refreshes and balances; supports cell renewal.",
+  "use": "10% (renewal cream)"
+ },
+ {
+  "n": "Witch hazel hydrosol",
+  "cat": "Hydrosol",
+  "dom": [
+   "skincare"
+  ],
+  "fn": "Natural astringent: minimizes the look of pores and controls oil.",
+  "use": "40% (toner)"
+ },
+ {
+  "n": "Peppermint hydrosol",
+  "cat": "Hydrosol",
+  "dom": [
+   "skincare"
+  ],
+  "fn": "Refreshing, cooling and mildly antiseptic.",
+  "use": "30% (toner)"
+ },
+ {
+  "n": "Rose (Rosa damascena) hydrosol",
+  "cat": "Hydrosol",
+  "dom": [
+   "skincare",
+   "soap"
+  ],
+  "fn": "Soothes, balances and softens irritation from acids. In soap it carries water-soluble botanical compounds.",
+  "use": "25% (toner); 50 g of the liquid in the Fresh-Cut Rose bar",
+  "caution": "In soap, add it to the oils — the heat and pH of lye water would destroy its compounds."
+ },
+ {
+  "n": "Immortelle (Helichrysum) hydrosol",
+  "cat": "Hydrosol",
+  "dom": [
+   "skincare"
+  ],
+  "fn": "Base of the body contouring gel.",
+  "use": "43% (firming gel)"
+ },
+ {
+  "n": "Deionized / distilled water",
+  "cat": "Solvent",
+  "dom": [
+   "skincare",
+   "soap"
+  ],
+  "fn": "Pure base with no minerals to interfere with the formula or the lye.",
+  "use": "11–65% in skincare; 26–38% of oil weight in soap",
+  "caution": "The main contamination risk in skincare — any water-containing product needs a preservative."
+ },
+ {
+  "n": "Vegetable glycerin",
+  "cat": "Humectant",
+  "dom": [
+   "skincare"
+  ],
+  "fn": "Prevents tightness and gives long-lasting comfort.",
+  "use": "1.7–3%"
+ },
+ {
+  "n": "Propylene glycol",
+  "cat": "Humectant / solvent",
+  "dom": [
+   "skincare"
+  ],
+  "fn": "Dissolves panthenol and actives; improves penetration.",
+  "use": "3–5%"
+ },
+ {
+  "n": "Sodium lactate 60%",
+  "cat": "Humectant / NMF",
+  "dom": [
+   "skincare",
+   "soap"
+  ],
+  "fn": "Deep hydration and prebiotic support in skincare; in soap it hardens the bar and eases unmolding.",
+  "use": "1.1–1.5% (skincare); 1–2 tsp per 500 g oils (soap)"
+ },
+ {
+  "n": "Betaine",
+  "cat": "Humectant",
+  "dom": [
+   "skincare"
+  ],
+  "fn": "Osmolyte — protects skin cells against cleansing stress.",
+  "use": "1.1%"
+ },
+ {
+  "n": "Sodium PCA",
+  "inci": "Prodew 600",
+  "cat": "Humectant",
+  "dom": [
+   "skincare"
+  ],
+  "fn": "Skin-feel humectant in the shower gel.",
+  "use": "1.5%"
+ },
+ {
+  "n": "Sodium hyaluronate",
+  "cat": "Humectant",
+  "dom": [
+   "skincare"
+  ],
+  "fn": "Hydration and a plumping effect in serums and eye gels.",
+  "use": "Serum & eye gel",
+  "caution": "Sprinkle in slowly and let it hydrate 15–30 min."
+ },
+ {
+  "n": "Argan kernel oil",
+  "inci": "Argania spinosa",
+  "cat": "Carrier oil",
+  "dom": [
+   "skincare",
+   "soap"
+  ],
+  "fn": "Rich in vitamin E and squalene; regenerative and antioxidant.",
+  "use": "4–13% (skincare); luxury superfat option in soap"
+ },
+ {
+  "n": "Camellia seed oil",
+  "inci": "Camellia japonica",
+  "cat": "Carrier oil",
+  "dom": [
+   "skincare"
+  ],
+  "fn": "Oleic-rich, fast-absorbing and not greasy.",
+  "use": "3–17%"
+ },
+ {
+  "n": "Jojoba seed oil",
+  "inci": "Simmondsia chinensis",
+  "cat": "Liquid wax",
+  "dom": [
+   "skincare",
+   "soap",
+   "candles"
+  ],
+  "fn": "Close to skin sebum; non-comedogenic; stabilizes blends. Base for massage candles and oil perfumes; a stable carrier for macerates.",
+  "use": "13% (facial oil); 5 g in the massage candle"
+ },
+ {
+  "n": "Marula seed oil",
+  "inci": "Sclerocarya birrea",
+  "cat": "Carrier oil",
+  "dom": [
+   "skincare"
+  ],
+  "fn": "Light, antioxidant-rich and soothing.",
+  "use": "16.7% (facial oil)",
+  "caution": "Grape seed or apricot kernel can substitute, but are less stable."
+ },
+ {
+  "n": "Sweet almond oil",
+  "cat": "Carrier oil",
+  "dom": [
+   "skincare",
+   "soap"
+  ],
+  "fn": "Oleic-rich; nourishes, softens and soothes; silky feel in soap.",
+  "use": "7.8–12% (skincare); ~5.5% (soap)",
+  "caution": "Unsaturated — not suitable for a high superfat (goes rancid)."
+ },
+ {
+  "n": "Grape seed oil",
+  "cat": "Carrier oil",
+  "dom": [
+   "skincare",
+   "soap"
+  ],
+  "fn": "Light, fast-absorbing and linoleic-rich.",
+  "use": "6.3–33% (skincare); ~5% in soap, 2% post-trace",
+  "caution": "Oxidizes easily — protect with vitamin E."
+ },
+ {
+  "n": "Apricot kernel oil",
+  "cat": "Carrier oil",
+  "dom": [
+   "skincare"
+  ],
+  "fn": "Light liquid oil for scrubs.",
+  "use": "8.2%"
+ },
+ {
+  "n": "Avocado oil",
+  "cat": "Carrier oil",
+  "dom": [
+   "skincare",
+   "soap"
+  ],
+  "fn": "Vitamins and oleic acid; nourishing. A favorite post-trace or post-cook superfat.",
+  "use": "8.2% (scrub); 1–8% as soap superfat"
+ },
+ {
+  "n": "Coconut oil (refined)",
+  "cat": "Oil / hard fat",
+  "dom": [
+   "skincare",
+   "soap",
+   "candles"
+  ],
+  "fn": "In soap: lauric and myristic acids give hardness, big fluffy lather and strong cleansing; fast trace, fast cure. In body care: butter and scrub base. In candles: softens wax into a pipeable ‘whipped cream’.",
+  "use": "24–30% in balanced soap bars; 100% in the single-oil bar",
+  "caution": "Drying at high % unless superfatted. Do not use fractionated (liquid) coconut in soap recipes."
+ },
+ {
+  "n": "Olive oil (extra virgin)",
+  "cat": "Soft oil",
+  "dom": [
+   "soap"
+  ],
+  "fn": "Oleic-rich: mildness, conditioning and a stable, creamy lather. Suits sensitive and baby skin.",
+  "use": "37–48% in blends; 72% Marseille; 100% Castile",
+  "caution": "Slow trace; young high-olive soap is soft and slimy and needs a long cure (Castile 6–12 months)."
+ },
+ {
+  "n": "Castor oil",
+  "cat": "Soft oil",
+  "dom": [
+   "soap"
+  ],
+  "fn": "Ricinoleic acid: humectant and lather stabilizer for dense, creamy foam.",
+  "use": "2–5.5%",
+  "caution": "Above 5–7% the bar turns sticky and soft."
+ },
+ {
+  "n": "Black seed oil",
+  "inci": "Nigella sativa",
+  "cat": "Specialty oil",
+  "dom": [
+   "soap"
+  ],
+  "fn": "Antioxidants and thymoquinone; balancing and soothing.",
+  "use": "~4% in base plus ~2% post-trace",
+  "caution": "Strong aroma. If you raise it, recalculate the lye."
+ },
+ {
+  "n": "Macadamia oil",
+  "cat": "Carrier oil",
+  "dom": [
+   "soap"
+  ],
+  "fn": "Skin-softening; a luxury superfat substitute.",
+  "use": "~6%"
+ },
+ {
+  "n": "Squalane (olive)",
+  "cat": "Emollient",
+  "dom": [
+   "skincare"
+  ],
+  "fn": "Biocompatible, light and non-comedogenic; restores the barrier and can partly replace lanolin.",
+  "use": "2–20%"
+ },
+ {
+  "n": "Dicaprylyl ether",
+  "cat": "Emollient",
+  "dom": [
+   "skincare"
+  ],
+  "fn": "Dry, silky finish with zero comedogenicity; dissolves makeup well.",
+  "use": "~40% of a cleansing oil"
+ },
+ {
+  "n": "Shea butter",
+  "cat": "Butter",
+  "dom": [
+   "skincare",
+   "soap",
+   "candles"
+  ],
+  "fn": "Vitamins and fatty acids for barrier repair; hardness and creamy lather in soap; nourishing in massage candles.",
+  "use": "7–69% (body care); 7–17% (soap)",
+  "caution": "Can turn grainy — seed and whip. In soap, work warmer (43–46 °C) to avoid false trace."
+ },
+ {
+  "n": "Mango butter",
+  "cat": "Butter",
+  "dom": [
+   "skincare",
+   "soap"
+  ],
+  "fn": "High in oleic acid; spreadable, whips easily; hardness and creaminess in soap.",
+  "use": "4–31% (body care); 6.5–12% (soap)"
+ },
+ {
+  "n": "Cocoa butter",
+  "cat": "Butter",
+  "dom": [
+   "skincare",
+   "soap"
+  ],
+  "fn": "Firm, rich base for butters; hardness and creaminess in soap.",
+  "use": "12–40% (body care); 9–17% (soap)",
+  "caution": "Crystallizes badly if cooled carelessly — seed and whip."
+ },
+ {
+  "n": "Lanolin",
+  "cat": "Occlusive",
+  "dom": [
+   "skincare",
+   "candles"
+  ],
+  "fn": "Powerful occlusive and emollient; forms water-in-oil emulsions and resembles human sebum.",
+  "use": "1% (barrier cream)",
+  "caution": "Wool-wax allergy risk; not for use undiluted. A lanolin-free variant is given in the book."
+ },
+ {
+  "n": "Beeswax",
+  "inci": "Cera alba",
+  "cat": "Wax",
+  "dom": [
+   "skincare",
+   "candles"
+  ],
+  "fn": "Structure and protection in creams; honey-scented candle wax; 1:1 with oil for solid perfume.",
+  "use": "1% (cream); 60 g in the cupcake candle"
+ },
+ {
+  "n": "Carrot seed oil",
+  "inci": "Daucus carota",
+  "cat": "Specialty oil",
+  "dom": [
+   "skincare"
+  ],
+  "fn": "Carotenoids and vitamin A; a golden hue that evens tone.",
+  "use": "1%"
+ },
+ {
+  "n": "Olivem 1000",
+  "inci": "Cetearyl olivate, sorbitan olivate",
+  "cat": "Emulsifier",
+  "dom": [
+   "skincare"
+  ],
+  "fn": "Natural, olive-derived oil-in-water emulsifier.",
+  "use": "3%",
+  "caution": "Melt with the oil phase at 65–72 °C."
+ },
+ {
+  "n": "Emulsifying Wax NF (Polawax)",
+  "cat": "Emulsifier",
+  "dom": [
+   "skincare"
+  ],
+  "fn": "Standardized, very stable oil-in-water emulsions.",
+  "use": "5%"
+ },
+ {
+  "n": "Cetearyl alcohol",
+  "cat": "Fatty alcohol",
+  "dom": [
+   "skincare"
+  ],
+  "fn": "Thickens and stabilizes. A ‘fatty’ alcohol — not drying.",
+  "use": "1.5–2.5%",
+  "caution": "Drop to 1.5–2% for a lighter cream."
+ },
+ {
+  "n": "Polyglyceryl-4 isostearate",
+  "cat": "Emulsifier",
+  "dom": [
+   "skincare"
+  ],
+  "fn": "Makes clear cleansing oils that turn milky in cold water — no heat needed.",
+  "use": "Cleansing oils"
+ },
+ {
+  "n": "Polysorbate 80",
+  "cat": "Solubilizer",
+  "dom": [
+   "skincare"
+  ],
+  "fn": "Disperses essential oils in water and makes scrubs rinse off as milk instead of a greasy film.",
+  "use": "0.7% (cleanser); 4–5% (scrubs)"
+ },
+ {
+  "n": "Polysorbate 20",
+  "cat": "Solubilizer",
+  "dom": [
+   "skincare"
+  ],
+  "fn": "Disperses essential oils in bath water.",
+  "use": "0.1% (bath salt)"
+ },
+ {
+  "n": "Cocamidopropyl betaine",
+  "cat": "Surfactant",
+  "dom": [
+   "skincare"
+  ],
+  "fn": "Mild amphoteric surfactant with stable foam.",
+  "use": "16.7–25.7%"
+ },
+ {
+  "n": "Coco-glucoside",
+  "cat": "Surfactant",
+  "dom": [
+   "skincare"
+  ],
+  "fn": "Non-ionic; softens cleansing and improves tolerance.",
+  "use": "2.8%"
+ },
+ {
+  "n": "Decyl glucoside",
+  "cat": "Surfactant",
+  "dom": [
+   "skincare"
+  ],
+  "fn": "Mild non-ionic secondary surfactant.",
+  "use": "4%"
+ },
+ {
+  "n": "Lamesoft",
+  "inci": "Glyceryl oleate & coco-glucoside",
+  "cat": "Refatting agent",
+  "dom": [
+   "skincare"
+  ],
+  "fn": "Counteracts the drying effect of surfactants.",
+  "use": "2%"
+ },
+ {
+  "n": "Xanthan gum",
+  "cat": "Natural gum",
+  "dom": [
+   "skincare"
+  ],
+  "fn": "Gel stabilizer.",
+  "use": "0.2%",
+  "caution": "Pre-disperse in glycerin to avoid lumps."
+ },
+ {
+  "n": "Konjac mannan",
+  "cat": "Natural gum",
+  "dom": [
+   "skincare"
+  ],
+  "fn": "Gel former that keeps thickening as it rests.",
+  "use": "0.3%",
+  "caution": "Pre-disperse in glycerin."
+ },
+ {
+  "n": "Carbomer / Aristoflex AVC",
+  "cat": "Gelling polymer",
+  "dom": [
+   "skincare"
+  ],
+  "fn": "Clear, light gel bases for serums and eye gels.",
+  "use": "Serum & eye gel",
+  "caution": "Some polymers are heat-sensitive — build the gel at room temperature and stir 10–15 min."
+ },
+ {
+  "n": "Sodium chloride (fine salt)",
+  "cat": "Thickener",
+  "dom": [
+   "skincare",
+   "soap"
+  ],
+  "fn": "Raises the viscosity of surfactant gels; hardens salt soap bars.",
+  "use": "0.5–2 g q.s. in gels; 20–30% in salt bars",
+  "caution": "Too much salt thins a surfactant gel again."
+ },
+ {
+  "n": "D-Panthenol (provitamin B5)",
+  "cat": "Active",
+  "dom": [
+   "skincare"
+  ],
+  "fn": "Barrier repair; anti-inflammatory and hydrating.",
+  "use": "0.5–5% (5% = maximum effective)",
+  "caution": "May tingle slightly."
+ },
+ {
+  "n": "Allantoin",
+  "cat": "Active",
+  "dom": [
+   "skincare"
+  ],
+  "fn": "Healing and soothing; softens keratinized cells.",
+  "use": "0.5%",
+  "caution": "Add at 40 °C."
+ },
+ {
+  "n": "Beta-glucan",
+  "cat": "Active",
+  "dom": [
+   "skincare"
+  ],
+  "fn": "Anti-inflammatory and restorative.",
+  "use": "0.5%",
+  "caution": "Add at 40 °C."
+ },
+ {
+  "n": "Bisabolol",
+  "cat": "Active",
+  "dom": [
+   "skincare"
+  ],
+  "fn": "Soothing, anti-inflammatory.",
+  "use": "0.3%"
+ },
+ {
+  "n": "Niacinamide",
+  "cat": "Active",
+  "dom": [
+   "skincare"
+  ],
+  "fn": "Long-term sebum regulation and smoother texture.",
+  "use": "2%"
+ },
+ {
+  "n": "Salicylic acid",
+  "cat": "BHA",
+  "dom": [
+   "skincare"
+  ],
+  "fn": "Clears pores; keratolytic and anti-inflammatory.",
+  "use": "0.5%",
+  "caution": "Only exfoliates below pH 4.5. Wear SPF 30+ daily. Gluconolactone (PHA) is a gentler alternative."
+ },
+ {
+  "n": "Azeclair",
+  "inci": "Potassium azeloyl diglycinate",
+  "cat": "Active",
+  "dom": [
+   "skincare"
+  ],
+  "fn": "Fights acne and post-inflammatory marks; mattifies.",
+  "use": "2%",
+  "caution": "Pre-dissolve in warm water phase."
+ },
+ {
+  "n": "Copper tripeptide-1 (GHK-Cu)",
+  "cat": "Peptide",
+  "dom": [
+   "skincare"
+  ],
+  "fn": "Stimulates collagen, elastin and hyaluronic acid; regeneration.",
+  "use": "5% ready solution in serum; 0.5% in eye gel",
+  "caution": "Should be blue — green or brown means oxidized. Don't layer with strong acids (>10%) or retinol."
+ },
+ {
+  "n": "Acetyl tetrapeptide-2 (Progeline)",
+  "cat": "Peptide",
+  "dom": [
+   "skincare"
+  ],
+  "fn": "Reduces the look of wrinkle depth and sagging.",
+  "use": "2%"
+ },
+ {
+  "n": "Argireline / Matrixyl / Eyeseryl",
+  "cat": "Peptides",
+  "dom": [
+   "skincare"
+  ],
+  "fn": "Expression-line, anti-aging and anti-puffiness peptides.",
+  "use": "2–3%",
+  "caution": "Stir in by hand or on the lowest speed — high shear and heat can denature them."
+ },
+ {
+  "n": "Hydrolyzed marine collagen",
+  "cat": "Protein",
+  "dom": [
+   "skincare"
+  ],
+  "fn": "Hydration and elasticity.",
+  "use": "2%",
+  "caution": "Heat-sensitive: cooling phase only."
+ },
+ {
+  "n": "Caffeine",
+  "cat": "Active",
+  "dom": [
+   "skincare"
+  ],
+  "fn": "Draining and vasoconstricting — for puffiness and body contouring.",
+  "use": "1.3–2%",
+  "caution": "May sting."
+ },
+ {
+  "n": "Centella asiatica extract",
+  "cat": "Botanical",
+  "dom": [
+   "skincare"
+  ],
+  "fn": "Supports collagen synthesis and microcirculation.",
+  "use": "3%"
+ },
+ {
+  "n": "Aloe barbadensis extract (10:1)",
+  "cat": "Botanical",
+  "dom": [
+   "skincare"
+  ],
+  "fn": "Hydrating and soothing.",
+  "use": "5.6%"
+ },
+ {
+  "n": "Succinic (amber) acid",
+  "cat": "Acid",
+  "dom": [
+   "skincare"
+  ],
+  "fn": "Gentle exfoliation; sets the pH of the firming gel.",
+  "use": "1.2%",
+  "caution": "Halve it for sensitive skin."
+ },
+ {
+  "n": "Red pepper (Capsicum) CO₂ extract",
+  "cat": "CO₂ extract",
+  "dom": [
+   "skincare"
+  ],
+  "fn": "Warming; boosts circulation in scrubs.",
+  "use": "0.04%",
+  "caution": "Potent. Wear gloves; keep away from eyes, mucous membranes and broken skin."
+ },
+ {
+  "n": "Green coffee CO₂ extract",
+  "cat": "CO₂ extract",
+  "dom": [
+   "skincare"
+  ],
+  "fn": "Antioxidant and firming.",
+  "use": "0.16–2%"
+ },
+ {
+  "n": "Rosemary CO₂ / oleoresin",
+  "cat": "Antioxidant",
+  "dom": [
+   "skincare",
+   "soap"
+  ],
+  "fn": "Slows rancidity in oils, butters and soap (helps prevent ‘dreaded orange spots’).",
+  "use": "1.67% (facial oil)"
+ },
+ {
+  "n": "Tocopherol (vitamin E)",
+  "cat": "Antioxidant",
+  "dom": [
+   "skincare",
+   "soap",
+   "candles"
+  ],
+  "fn": "Protects oils from rancidity.",
+  "use": "0.3–3.3%"
+ },
+ {
+  "n": "Geogard Ultra",
+  "cat": "Preservative",
+  "dom": [
+   "skincare"
+  ],
+  "fn": "Broad-spectrum preservative recommended for the cleanser and creams.",
+  "use": "1%"
+ },
+ {
+  "n": "Geogard ECT",
+  "inci": "Benzoic acid, sorbic acid, glycerin",
+  "cat": "Preservative",
+  "dom": [
+   "skincare"
+  ],
+  "fn": "Stable at acidic pH.",
+  "use": "0.5–1%",
+  "caution": "Add at ~35 °C."
+ },
+ {
+  "n": "Geogard 221",
+  "cat": "Preservative",
+  "dom": [
+   "skincare"
+  ],
+  "fn": "For creams and serums.",
+  "use": "1%"
+ },
+ {
+  "n": "Leucidal Liquid",
+  "cat": "Preservative",
+  "dom": [
+   "skincare"
+  ],
+  "fn": "‘Natural’ preservative option.",
+  "use": "2%"
+ },
+ {
+  "n": "Euxyl PE 9010",
+  "inci": "Phenoxyethanol, ethylhexylglycerin",
+  "cat": "Preservative",
+  "dom": [
+   "skincare"
+  ],
+  "fn": "Preserves the shower gel.",
+  "use": "0.8%"
+ },
+ {
+  "n": "Caprylyl glycol",
+  "cat": "Multifunctional",
+  "dom": [
+   "skincare"
+  ],
+  "fn": "Moisturiser that also boosts preservatives.",
+  "use": "0.5–0.8%"
+ },
+ {
+  "n": "Disodium EDTA",
+  "cat": "Chelator",
+  "dom": [
+   "skincare"
+  ],
+  "fn": "Binds metal ions — protects peptides and GHK-Cu from oxidation.",
+  "use": "Serums"
+ },
+ {
+  "n": "Citric / lactic acid 10% solution",
+  "cat": "pH adjuster",
+  "dom": [
+   "skincare"
+  ],
+  "fn": "Brings water-based formulas down into the skin's range, drop by drop.",
+  "use": "q.s."
+ },
+ {
+  "n": "Sodium hydroxide (NaOH, lye)",
+  "cat": "Alkali",
+  "dom": [
+   "soap"
+  ],
+  "fn": "Turns oils into soap — ‘there is no soap without lye’. Potassium hydroxide (KOH) is used for liquid soap.",
+  "use": "Calculated from each oil's SAP value",
+  "caution": "Always lye into cold liquid, never the reverse. Weigh to 0.1 g and never change the calculated amount without recalculating the whole recipe."
+ },
+ {
+  "n": "Goat milk",
+  "cat": "Liquid",
+  "dom": [
+   "soap"
+  ],
+  "fn": "A very mild, creamy bar with luxurious lather.",
+  "use": "43 g of 108 g liquid (Goat Milk & Honey)",
+  "caution": "Freeze it first. Sugars and proteins scorch — soap cool and skip the gel."
+ },
+ {
+  "n": "Honey",
+  "cat": "Additive",
+  "dom": [
+   "soap"
+  ],
+  "fn": "Humectant; boosts lather.",
+  "use": "~2% of oils",
+  "caution": "Heats and accelerates trace — add below 38 °C; in hot process, after the cook."
+ },
+ {
+  "n": "Fresh orange juice",
+  "cat": "Additive",
+  "dom": [
+   "soap"
+  ],
+  "fn": "Natural sugars for lather.",
+  "use": "15 g, added to the oils",
+  "caution": "Acidic: it uses up some lye. Avoid store-bought juice."
+ },
+ {
+  "n": "Activated charcoal",
+  "cat": "Colorant",
+  "dom": [
+   "soap"
+  ],
+  "fn": "Jet-black color, gentle exfoliation.",
+  "use": "1–1.5 tsp per ~460 g oils",
+  "caution": "Pigment, not dye — it won't stain skin; gray lather is normal."
+ },
+ {
+  "n": "Spirulina",
+  "cat": "Colorant",
+  "dom": [
+   "soap",
+   "skincare"
+  ],
+  "fn": "Green that shifts to olive, sage or teal; doesn't bleed.",
+  "use": "1–1.5 tsp (soap); 0.05–0.1 g tint (cleanser)",
+  "caution": "Light-sensitive — cure in the dark."
+ },
+ {
+  "n": "Clays (kaolin, rose kaolin, French green, rhassoul)",
+  "cat": "Colorant / additive",
+  "dom": [
+   "soap"
+  ],
+  "fn": "Slip, mild exfoliation, oil absorption and soft natural color.",
+  "use": "1–2 tsp",
+  "caution": "Always slurry in oil or water first."
+ },
+ {
+  "n": "Cinnamon (ground)",
+  "cat": "Spice",
+  "dom": [
+   "soap"
+  ],
+  "fn": "Reddish-brown color and exfoliation.",
+  "use": "1–1.5 tsp per layer",
+  "caution": "Can irritate skin — not for facial bars."
+ },
+ {
+  "n": "Vanilla stabilizer",
+  "cat": "Additive",
+  "dom": [
+   "soap"
+  ],
+  "fn": "Stops vanillin in fragrance oils turning the soap brown.",
+  "use": "1:1 with the fragrance oil"
+ },
+ {
+  "n": "Melt-and-pour base",
+  "cat": "Decorative base",
+  "dom": [
+   "soap"
+  ],
+  "fn": "Stable embeds and inlays inside cold-process bars.",
+  "use": "10–50 g",
+  "caution": "Color with mica or oil-dispersible pigment, not water-based color."
+ },
+ {
+  "n": "Isopropyl alcohol 91–99%",
+  "cat": "Process aid",
+  "dom": [
+   "soap",
+   "skincare"
+  ],
+  "fn": "Sprayed on fresh soap to prevent soda ash; 70% IPA sanitizes tools and gloves.",
+  "use": "Spray"
+ },
+ {
+  "n": "Lavender essential oil",
+  "cat": "Essential oil",
+  "dom": [
+   "skincare",
+   "soap"
+  ],
+  "fn": "Floral-herbaceous; calming, soothing to irritation.",
+  "use": "0.17% (cleanser); ~2% (soap)"
+ },
+ {
+  "n": "Bergamot essential oil",
+  "cat": "Essential oil",
+  "dom": [
+   "skincare",
+   "soap"
+  ],
+  "fn": "Fresh citrus, uplifting, skin-balancing.",
+  "use": "0.1% (bath salt); 5 g (soap)",
+  "caution": "Phototoxic — use bergapten-free (FCF) in leave-on products and avoid in daytime face care."
+ },
+ {
+  "n": "Sweet orange essential oil",
+  "cat": "Essential oil",
+  "dom": [
+   "skincare",
+   "soap",
+   "candles"
+  ],
+  "fn": "Bright, uplifting citrus.",
+  "use": "0.6–0.7% (body); 10 g (soap)",
+  "caution": "Highly volatile; citrus oils can accelerate trace."
+ },
+ {
+  "n": "Tea tree essential oil",
+  "cat": "Essential oil",
+  "dom": [
+   "soap"
+  ],
+  "fn": "Antiseptic and anti-inflammatory; for oily and blemish-prone skin.",
+  "use": "Soap blends"
+ },
+ {
+  "n": "Peppermint essential oil",
+  "cat": "Essential oil",
+  "dom": [
+   "skincare",
+   "soap"
+  ],
+  "fn": "Cooling, invigorating.",
+  "use": "0.3% (salt scrub)",
+  "caution": "Sensitizing at high doses."
+ },
+ {
+  "n": "Patchouli essential oil",
+  "cat": "Essential oil",
+  "dom": [
+   "soap",
+   "candles"
+  ],
+  "fn": "Earthy base note and fixative; anchors fleeting top notes.",
+  "use": "Soap & perfume blends"
+ },
+ {
+  "n": "Frankincense essential oil",
+  "cat": "Essential oil",
+  "dom": [
+   "skincare"
+  ],
+  "fn": "Regenerative and soothing.",
+  "use": "0.13% (facial oil)"
+ },
+ {
+  "n": "Coconut container wax",
+  "cat": "Wax",
+  "dom": [
+   "candles"
+  ],
+  "fn": "About 80% coconut oil derivatives + 20% vegetable oils. Melts at 43–45 °C, clings to glass and burns clean.",
+  "use": "Base; fragrance 10–12%",
+  "caution": "Never above 85 °C. Cure 7–10 days."
+ },
+ {
+  "n": "Coconut mold (pillar) wax",
+  "cat": "Wax",
+  "dom": [
+   "candles"
+  ],
+  "fn": "Melts at 57–63 °C; harder and smoother, releases from molds and holds its shape while burning.",
+  "use": "Cakes and pillars",
+  "caution": "Don't use it in containers — it causes wet spots."
+ },
+ {
+  "n": "Soy wax",
+  "cat": "Wax",
+  "dom": [
+   "candles"
+  ],
+  "fn": "Fine white flakes of hydrogenated soybean oil; dense and creamy.",
+  "use": "Choose container or mold grade",
+  "caution": "Average melting point 69–72 °C."
+ },
+ {
+  "n": "Candle gel",
+  "cat": "Gel",
+  "dom": [
+   "candles"
+  ],
+  "fn": "Mineral oil + gelling agent: transparent, odorless, remeltable.",
+  "use": "Batch weight ≈ water weight × 0.9",
+  "caution": "Melt at 90–105 °C, never above 110 °C. Stir with a glass rod."
+ },
+ {
+  "n": "Oil-soluble candle dye (‘F’)",
+  "cat": "Colorant",
+  "dom": [
+   "candles"
+  ],
+  "fn": "Transparent, bright color that doesn't affect the burn.",
+  "use": "3–4 drops light, 5–7 drops strong",
+  "caution": "Too much causes smoke or even ignition. Color sets one shade lighter."
+ },
+ {
+  "n": "Braided cotton wick",
+  "cat": "Wick",
+  "dom": [
+   "candles"
+  ],
+  "fn": "10, 24 or 45 strands, matched to the container diameter.",
+  "use": "24-strand for a 250 ml glass; 45-strand for a 13 cm cake",
+  "caution": "Use cotton only with dried flowers — other wicks risk flaring."
+ },
+ {
+  "n": "Fragrance oil",
+  "cat": "Fragrance",
+  "dom": [
+   "candles",
+   "soap"
+  ],
+  "fn": "Main scenting agent in candles; strong, stable scent in soap.",
+  "use": "10–12% of wax; ~2% of soap batch",
+  "caution": "In soap use only CP-safe oils — others can seize or rice. Don't mix fragrance and essential oils in one soap."
+ },
+ {
+  "n": "Augeo & MMB",
+  "cat": "Diffuser base",
+  "dom": [
+   "candles"
+  ],
+  "fn": "Glycerin-based solvents used 50/50 as a reed-diffuser and car-perfume base.",
+  "use": "70% of the blend"
+ }
+]

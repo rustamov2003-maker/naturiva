@@ -1,0 +1,68 @@
+<!--meta
+{
+ "title": "FAQ & Knowledge Base: Soapmaking, Skincare Formulation & Candle Making | NATURIVA",
+ "description": "Search the knowledge base and read answers about the books and the craft: who the books are for, where to start, gel phase, pH, preservatives, wick sizing, wet spots and more.",
+ "nav": "faq",
+ "kb": true,
+ "faq_jsonld": true,
+ "scripts": ["search.js"]
+}
+-->
+<section class="page-hero">
+  <div class="wrap narrow">
+    <p class="eyebrow">FAQ & knowledge base</p>
+    <h1>Search the knowledge base</h1>
+    <p class="lede">Every answer is drawn from the books. Search a word or a whole question.</p>
+    <div class="search-row">
+      <label class="visually-hidden" for="kb-search">Search the knowledge base</label>
+      <input class="search" id="kb-search" type="search" placeholder="Try “wick”, “gel phase” or “why is my candle tunneling”" autocomplete="off">
+    </div>
+    <div class="chips" role="group" aria-label="Popular searches">
+      <button class="chip" type="button" data-search-term="wick">wick</button>
+      <button class="chip" type="button" data-search-term="gel phase">gel phase</button>
+      <button class="chip" type="button" data-search-term="maceration">maceration</button>
+      <button class="chip" type="button" data-search-term="pH">pH</button>
+      <button class="chip" type="button" data-search-term="emulsion">emulsion</button>
+      <button class="chip" type="button" data-search-term="fragrance">fragrance</button>
+      <button class="chip" type="button" data-search-term="cure">cure</button>
+      <button class="chip" type="button" data-search-term="oils">oils</button>
+    </div>
+  </div>
+</section>
+
+<section class="section" aria-live="polite">
+  <div class="wrap">
+    <div id="kb-results" hidden></div>
+  </div>
+</section>
+
+<section class="section" id="about-the-books">
+  <div class="wrap two-col">
+    <div>
+      <p class="eyebrow">For readers</p>
+      <h2>About the books</h2>
+      <p class="muted">What you'll learn, who they're for, and where to start.</p>
+    </div>
+    <div>{{FAQ_CUSTOMER}}</div>
+  </div>
+</section>
+
+<section class="section tinted" id="knowledge-faq">
+  <div class="wrap two-col">
+    <div>
+      <p class="eyebrow">For makers</p>
+      <h2>The craft, explained</h2>
+      <p class="muted">Core questions answered from the books, grouped by topic. Each links to a full article.</p>
+      <p><a href="{ROOT}knowledge/index.html">All knowledge articles</a></p>
+    </div>
+    <div>{{FAQ_KNOWLEDGE}}</div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="wrap narrow">
+    <h2>Didn't find it?</h2>
+    <p class="lede">Ask the Knowledge Assistant. If the books don't cover your question, it will tell you.</p>
+    {{ASK_BOX}}
+  </div>
+</section>

@@ -1,0 +1,605 @@
+[
+ {
+  "id": "lye-safety",
+  "title": "How do I handle lye safely?",
+  "category": "Soapmaking",
+  "book": ["soap"],
+  "chapter": "The Non-Negotiable Protocol: Chemical & Ingredient Handling",
+  "keywords": ["lye", "sodium hydroxide", "naoh", "koh", "caustic", "lye safety", "lye water", "fumes", "burn"],
+  "question_variations": [
+    "Is lye dangerous?",
+    "How do I mix lye and water?",
+    "Do I add water to lye or lye to water?",
+    "What if I get lye on my skin?"
+  ],
+  "short_answer": "Always add lye slowly to cold liquid, never the reverse. Wear full protective gear and never change a calculated lye amount.",
+  "detailed_answer": "The book treats sodium hydroxide with extreme respect. Store it locked in a dry, cool place, double-contained in an HDPE bucket with hazard labels. The rule is sacred: lye to liquid. Add the granules slowly to cool liquid in a deep, resistant container while stirring. The solution heats up fast and releases fumes you must not inhale. Chilling or partly freezing the water reduces the heat spike.\n\nWeigh lye to 0.1 g, and never adjust it without recalculating the whole recipe.",
+  "practical_guidance": [
+    "Wear goggles, nitrile gloves and long sleeves, and work with ventilation.",
+    "Pour the lye solution into the oils through a sieve.",
+    "Run every recipe through a lye calculator; the book recommends SoapCalc.net."
+  ],
+  "warnings": [
+    "Lye on skin: flush with running water for 15+ minutes and remove contaminated clothing. Vinegar is for surface spills only.",
+    "Lye in the eyes: flush for 20–30 minutes holding the eyelids open, then seek immediate medical attention."
+  ],
+  "related_topics": ["what-is-saponification", "what-is-superfat", "safety-protocol"],
+  "faq": true
+ },
+ {
+  "id": "what-is-saponification",
+  "title": "What is saponification?",
+  "category": "Soapmaking",
+  "book": ["soap"],
+  "chapter": "Interpreting Soap Calculator Quality Values",
+  "keywords": ["saponification", "sap value", "reaction", "oils and lye", "how soap is made", "chemistry"],
+  "question_variations": [
+    "How does soap form?",
+    "What happens when oil meets lye?",
+    "What is a SAP value?"
+  ],
+  "short_answer": "It's the reaction between oils and lye that turns them into soap. As the book says: there is no soap without lye.",
+  "detailed_answer": "Oils react with an alkali, sodium hydroxide for bars, and become soap. The chemical conversion happens within 24–48 hours. Curing then lets water evaporate, the pH stabilize and the bar harden.\n\nEach oil needs a specific amount of lye, set by its saponification (SAP) value. That's why the soap calculator's first job is working out exactly how much lye your oils need. Oils also react at different speeds: lauric-rich coconut saponifies fast, while oleic-rich olive oil is slow, which is why Castile traces and cures so slowly.",
+  "practical_guidance": [
+    "Enter acidic additives (juice, purées, citric acid) in the calculator: they use up some lye.",
+    "Adjust the oils, never the lye, to change how a bar behaves."
+  ],
+  "warnings": [],
+  "related_topics": ["lye-safety", "what-is-superfat", "how-long-should-soap-cure"],
+  "faq": true
+ },
+ {
+  "id": "cold-vs-hot-process-soap",
+  "title": "What's the difference between cold process and hot process soap?",
+  "category": "Soapmaking",
+  "book": ["soap"],
+  "chapter": "The Gel Phase in Cold & Hot Process Soapmaking · Jasmine-Infused Hot Process Soap",
+  "keywords": ["cold process", "hot process", "cp", "hp", "difference", "slow cooker", "cook", "method"],
+  "question_variations": [
+    "Cold process vs hot process?",
+    "What is hot process soap?",
+    "What is cold process soap?",
+    "Which method should I use?",
+    "I want to learn soapmaking"
+  ],
+  "short_answer": "Cold process soap saponifies in the mold and needs a full cure. Hot process soap is cooked until saponification is nearly complete, so it only needs 1–2 weeks to harden.",
+  "detailed_answer": "In cold process, lye solution and oils are combined at moderate temperatures (from room temperature to about 46 °C, depending on the recipe), blended to trace and poured. Saponification finishes in the mold, and you can encourage or prevent the gel phase. The bars need a full cure, usually at least 4–6 weeks and longer for soft-oil recipes.\n\nIn hot process, the batter is brought to a light trace and cooked on low heat (a slow cooker on LOW, an oven or a double boiler at about 60–70 °C). It passes through a foamy stage, then a glossy, translucent gel, and ends as a waxy paste like mashed potatoes. That takes 45–60 minutes in the book's jasmine recipe. Superfat oils, delicate scents, milks and honey go in after the cook, once the lye is used up. The bars look rustic and textured, which suits layers and embeds but makes smooth tops and fine swirls harder.",
+  "practical_guidance": [
+    "Hot process: don't stir during the initial gel, or the texture turns grainy.",
+    "Check hot process soap is done with pH strips: a diluted dab should read 8–10.",
+    "Cold process gives you smoother surfaces and finer designs."
+  ],
+  "warnings": ["Never tongue-test soap. Use pH strips."],
+  "related_topics": ["what-is-gel-phase", "how-long-should-soap-cure", "hot-process-soap-crumbly"],
+  "follow_up": {
+    "prompt": "Would you like to look at the gel phase or at curing next?",
+    "options": [
+      { "label": "Gel phase", "id": "what-is-gel-phase" },
+      { "label": "Curing", "id": "how-long-should-soap-cure" }
+    ]
+  },
+  "faq": true
+ },
+ {
+  "id": "what-is-gel-phase",
+  "title": "What is gel phase in soapmaking?",
+  "category": "Soapmaking",
+  "book": ["soap"],
+  "chapter": "The Gel Phase in Cold & Hot Process Soapmaking",
+  "keywords": ["gel phase", "gel", "insulate", "translucent", "freezer", "no gel", "overheating", "heat"],
+  "question_variations": [
+    "Should my soap go through gel?",
+    "How do I prevent gel phase?",
+    "How do I encourage gel phase?",
+    "Why did my soap get hot and translucent?"
+  ],
+  "short_answer": "It's a self-heating stage where fresh soap reaches 54–82 °C and turns semi-translucent, which speeds saponification.",
+  "detailed_answer": "The reaction is exothermic, so fresh soap heats itself. In gel phase it reaches 54–82 °C (130–180 °F), becomes semi-transparent and jelly-like, and saponification reaches about 80–90% within hours.\n\nFull gel gives brighter colors (micas, clays, spirulina, charcoal), a glossy, slightly translucent finish and a harder, longer-lasting bar, with a standard 4–6 week cure. No-gel soap needs about 6–8 weeks. To check afterwards, look at the soap 12–24 hours after molding: gelled soap is firm, warm and slightly translucent, ungelled soap softer and cooler.",
+  "practical_guidance": [
+    "To encourage gel: use more saturated fats (coconut), soap warmer (40–50 °C) to medium-heavy trace, and insulate with towels or a warm, switched-off oven.",
+    "To prevent gel: soap at room temperature to thin trace, then put the mold straight into the freezer, or use small individual molds.",
+    "Skip gel for milk soaps and layered designs."
+  ],
+  "warnings": ["Sugars, honey, milk and some spices raise the heat. Watch closely when oven-gelling to avoid cracking or 'volcanoing'."],
+  "related_topics": ["partial-gel-ring-in-soap", "cold-vs-hot-process-soap", "milk-in-soap"],
+  "faq": true
+ },
+ {
+  "id": "partial-gel-ring-in-soap",
+  "title": "Why is there a translucent ring in the middle of my soap?",
+  "category": "Soapmaking",
+  "book": ["soap"],
+  "chapter": "The Gel Phase in Cold & Hot Process Soapmaking",
+  "keywords": ["partial gel", "ring", "translucent", "dark center", "circle", "middle", "opaque edges"],
+  "question_variations": [
+    "My soap has a dark circle in the middle",
+    "Why are the edges lighter than the center?",
+    "What is partial gel?"
+  ],
+  "short_answer": "That's a partial gel: the center heated through gel phase but the edges didn't. It's cosmetic only; extend the cure.",
+  "detailed_answer": "Uneven insulation or cooling lets the warm center gel while the cooler edges stay opaque. The bar is sound; it's a visual issue. Because ungelled soap cures more slowly, extend the cure to 6–8 weeks.",
+  "practical_guidance": [
+    "Insulate evenly if you want full gel, or chill evenly if you don't.",
+    "Commit to one approach per batch rather than something in between."
+  ],
+  "warnings": [],
+  "related_topics": ["what-is-gel-phase", "how-long-should-soap-cure"],
+  "faq": false
+ },
+ {
+  "id": "how-long-should-soap-cure",
+  "title": "How long should soap cure, and why?",
+  "category": "Soapmaking",
+  "book": ["soap"],
+  "chapter": "Curing Times for Different Soap Formulations",
+  "keywords": ["cure", "curing", "cure time", "how long", "weeks", "ready", "harden", "why cure", "castile cure", "rack"],
+  "question_variations": [
+    "Why does my soap need to cure?",
+    "When can I use my soap?",
+    "How do I know my soap is cured?",
+    "How long to cure castile soap?"
+  ],
+  "short_answer": "Most balanced cold process bars need 4–6 weeks; soft-oil bars need longer, and 100% olive Castile 6–12 months. Curing lets water evaporate, the pH settle and the bar harden.",
+  "detailed_answer": "During the cure, water evaporates, the pH stabilizes and the soap crystallizes into a hard, mild, long-lasting bar. The book's cure times:\n\nHigh-coconut or utility bars: 2–3 weeks (a 100% coconut skin bar at 20% superfat, about 10 weeks). Balanced cold process bars: 4–6 weeks. Hot process: usable after the cook, with 1–2 weeks of hardening. Bars with 60–80% soft oils: 6–12 weeks. 100% olive Castile: 6–12 months. Salt bars: 4–8 weeks. No-gel, milk, high-butter or high-sugar bars: 8–10 weeks.",
+  "practical_guidance": [
+    "Cure on a rack in a cool, dry, dark, ventilated place.",
+    "A bar is ready when it's hard all the way through, lathers creamily at once and no longer feels slippery or slimy.",
+    "When in doubt, wait. Longer curing almost always improves soap."
+  ],
+  "warnings": [],
+  "related_topics": ["what-is-gel-phase", "castile-soap-slow", "water-discount"],
+  "faq": true
+ },
+ {
+  "id": "what-is-superfat",
+  "title": "What is superfat?",
+  "category": "Soapmaking",
+  "book": ["soap"],
+  "chapter": "100% Coconut Oil Soap: A Masterclass in Single-Oil Formulation",
+  "keywords": ["superfat", "lye discount", "free oil", "excess oil", "mild", "percentage"],
+  "question_variations": [
+    "How much superfat should I use?",
+    "What does superfat do?",
+    "What is a lye discount?"
+  ],
+  "short_answer": "A deliberate excess of oil that the lye can't saponify. It stays in the bar as free oil, making it milder and ensuring no free lye remains.",
+  "detailed_answer": "The standard safety superfat is 3–10%, and most recipes in the book use 5–7%. Coconut oil is the exception. Because it's so saturated and stable, it can carry a 20% superfat for a skin bar without going rancid, while 0–3% makes a household or laundry bar. Oils high in unsaturated fats, such as olive or sweet almond, would go rancid at 20%.",
+  "practical_guidance": [
+    "Set your superfat in the lye calculator; don't just add extra oil by eye.",
+    "Use 5–7% for everyday bath bars, as the book does."
+  ],
+  "warnings": ["Never reduce superfat below what's needed to leave no free lye."],
+  "related_topics": ["dual-superfatting", "coconut-oil-soap", "what-is-saponification"],
+  "faq": true
+ },
+ {
+  "id": "dual-superfatting",
+  "title": "What is dual superfatting?",
+  "category": "Soapmaking",
+  "book": ["soap"],
+  "chapter": "Black Seed Luxury Soap: Harnessing Ancient Botanicals",
+  "keywords": ["dual superfat", "post-trace", "after trace", "precious oil", "black seed", "avocado"],
+  "question_variations": [
+    "Why add oil after trace?",
+    "What is a post-trace superfat?"
+  ],
+  "short_answer": "It's the book's signature technique: a standard superfat built into the lye calculation, plus a small amount of a precious oil added after trace.",
+  "detailed_answer": "The primary superfat, around 6–7%, keeps the whole batch safe and mild. The secondary superfat, about 1–2.5% of the oils, is a special oil such as black seed, avocado, or a rosemary or rose macerate stirred in at trace. Oil added after trace is more likely to stay unsaponified, so more of its heat-sensitive botanical compounds survive in the finished bar.",
+  "practical_guidance": [
+    "Add the post-trace oil first, then fragrance, then colorants.",
+    "If you increase a post-trace oil significantly, recalculate the lye."
+  ],
+  "warnings": [],
+  "related_topics": ["what-is-superfat", "what-is-a-macerated-oil"],
+  "faq": false
+ },
+ {
+  "id": "what-is-trace",
+  "title": "What is trace?",
+  "category": "Soapmaking",
+  "book": ["soap"],
+  "chapter": "Recipe chapters, e.g. Castile Soap and Four Spices Layered Exfoliating Bar",
+  "keywords": ["trace", "emulsified", "thin trace", "medium trace", "pudding", "stick blender", "thicken", "false trace"],
+  "question_variations": [
+    "How do I know I've reached trace?",
+    "What does medium trace look like?",
+    "What is false trace?"
+  ],
+  "short_answer": "Trace is the point where the emulsified soap batter thickens. The book works with three stages: just emulsified, thin trace and medium trace.",
+  "detailed_answer": "Just emulsified is thin and fluid like cream, with no oil streaks; that's the moment to divide a batch for layers or colors. Thin trace is like thin pudding. Medium trace is like warm pudding or cake batter that holds a drizzle on the surface. Fragrance, post-trace oils and most additives go in at thin to medium trace.\n\nIn butter-rich recipes, shea and mango can solidify when they meet cooler lye and fake a thick batter (false trace). That's why the Rosemary & Citrus bar is soaped at a warmer 43–46 °C.",
+  "practical_guidance": [
+    "Use the stick blender in short bursts. For slow recipes like Castile, blend 20–30 seconds, rest, and repeat for 5–10 minutes.",
+    "Stop at thin trace when working with fast-moving recipes."
+  ],
+  "warnings": [],
+  "related_topics": ["why-soap-accelerates", "layered-soap", "castile-soap-slow"],
+  "faq": true
+ },
+ {
+  "id": "why-soap-accelerates",
+  "title": "Why did my soap accelerate?",
+  "category": "Soapmaking",
+  "book": ["soap"],
+  "chapter": "Fragrances and Colorants for Cold & Hot Process Soap · Natural & Functional Additives for Handmade Soap",
+  "keywords": ["accelerate", "acceleration", "thickened fast", "too thick", "set up fast", "traced quickly", "hardened fast", "moving fast", "speed"],
+  "question_variations": [
+    "Why did my soap batter thicken so fast?",
+    "My soap set up in the pot",
+    "Why did my soap trace too quickly?",
+    "Why is my batter too thick to pour?"
+  ],
+  "short_answer": "Certain ingredients and conditions speed up trace: some fragrance oils, citrus essential oils, sugars, milks, honey, juices, a water discount and high-coconut recipes.",
+  "detailed_answer": "The book lists the usual accelerators. Fragrance oils that aren't tested for cold process (often those made for candles) can make the batter thicken suddenly. Citrus essential oils speed things up. Sugars, milks, honey and juices add heat. A water discount (less water) and high-coconut recipes trace fast by nature: 100% coconut soap can trace in 30–90 seconds.\n\nIf the batter is thickening too fast to swirl or layer, the cause is almost always in that list.",
+  "practical_guidance": [
+    "Use fragrance oils labeled safe for cold process soap, and test new ones in a small batch.",
+    "Soap cooler and blend in short bursts when using sugars, milk or honey.",
+    "Stop at thin trace and pour immediately with fast-moving recipes; individual molds help."
+  ],
+  "warnings": ["Don't mix fragrance oils and essential oils in one recipe: it risks acceleration, separation or a changed scent."],
+  "related_topics": ["soap-seized-or-riced", "what-is-trace", "essential-vs-fragrance-oils"],
+  "follow_up": {
+    "prompt": "Was a fragrance oil involved, or an additive like milk or honey?",
+    "options": [
+      { "label": "Fragrance oil", "id": "soap-seized-or-riced" },
+      { "label": "Milk", "id": "milk-in-soap" },
+      { "label": "Honey or sugar", "id": "honey-in-soap" }
+    ]
+  },
+  "faq": true
+ },
+ {
+  "id": "soap-seized-or-riced",
+  "title": "Why did my soap seize or turn lumpy (riced)?",
+  "category": "Soapmaking",
+  "book": ["soap"],
+  "chapter": "Fragrances and Colorants for Cold & Hot Process Soap",
+  "keywords": ["seize", "seized", "ricing", "riced", "curdled", "lumps", "separation", "fragrance oil problem", "grainy batter"],
+  "question_variations": [
+    "My soap batter curdled",
+    "Why did my soap turn solid instantly?",
+    "My soap has lumps like rice"
+  ],
+  "short_answer": "Usually a fragrance oil that isn't safe for cold process. Mixing fragrance and essential oils can do it too.",
+  "detailed_answer": "The book notes that US-made fragrance oils are usually tested for cold and hot process soap, while many others, often designed for candles, can cause seizing (instant thickening) or ricing (curd-like lumps and separation). Always check a fragrance's cold-process safety before using it.",
+  "practical_guidance": [
+    "Check the supplier's specification sheet for 'CP soap safe'.",
+    "Test each new fragrance oil in a small batch first.",
+    "Use either fragrance oils or essential oils in a recipe, not both."
+  ],
+  "warnings": [],
+  "related_topics": ["why-soap-accelerates", "essential-vs-fragrance-oils", "vanilla-discoloration"],
+  "faq": true
+ },
+ {
+  "id": "essential-vs-fragrance-oils",
+  "title": "What's the difference between essential oils and fragrance oils?",
+  "category": "Soapmaking",
+  "book": ["soap", "candles"],
+  "chapter": "Fragrances and Colorants for Cold & Hot Process Soap · Cosmetic Properties of Essential Oils in Soapmaking",
+  "keywords": ["essential oil", "fragrance oil", "difference", "eo", "fo", "natural scent", "synthetic", "scent"],
+  "question_variations": [
+    "Essential oils vs fragrance oils?",
+    "Should I use essential oils or fragrance oils?",
+    "Which scent lasts longer in soap?"
+  ],
+  "short_answer": "Essential oils are natural volatile plant compounds; fragrance oils are lab-made blends with a stronger, more stable scent. Both work, but fragrance oils must be cold-process safe for soap.",
+  "detailed_answer": "Essential oils suit cold and hot process soap once their stability at high pH is known. The safe range is 0.5–3% of batch weight, and the book's recipes use about 2%. Top and middle notes evaporate during saponification and curing, so the book recommends working near the upper safe limit and anchoring blends with base notes such as vetiver, patchouli, cedarwood or benzoin. Essential oil soaps smell milder.\n\nFragrance oils give a stronger, longer-lasting scent, but their soap compatibility varies. Non-tested oils can seize or rice the batter. In candles, the book uses the same 10–12% load for either.",
+  "practical_guidance": [
+    "Pick one type per soap recipe; don't combine them.",
+    "Check fragrance oils for vanillin, which turns soap brown."
+  ],
+  "warnings": ["Essential oils are never applied neat or taken internally. Use caution in pregnancy, breastfeeding, epilepsy or serious illness, and consult a physician."],
+  "related_topics": ["soap-seized-or-riced", "vanilla-discoloration", "candle-fragrance-load"],
+  "faq": true
+ },
+ {
+  "id": "too-much-fragrance",
+  "title": "What happens if I use too much fragrance?",
+  "category": "Soapmaking",
+  "book": ["soap", "candles"],
+  "chapter": "Cosmetic Properties of Essential Oils in Soapmaking · Basics of Candle Making",
+  "keywords": ["too much fragrance", "too much essential oil", "overdose", "exceed", "more fragrance", "stronger scent", "fragrance limit"],
+  "question_variations": [
+    "Can I add more fragrance for a stronger scent?",
+    "What's the maximum fragrance I can use?"
+  ],
+  "coverage": "partial",
+  "gap": "The books give safe usage ranges but don't describe what happens when you exceed them.",
+  "short_answer": "The books set clear limits but don't describe what happens above them, so stay within the stated ranges.",
+  "detailed_answer": "What the books do establish: in soap, essential oils are used at 0.5–3% of batch weight (about 2% in the recipes). In facial skincare, total essential oil stays at or below 1%. In candles, the fragrance load is 10–12% of the wax weight, and the book says to follow the fragrance maker's instructions for amounts and temperatures.\n\nThey also flag related risks: peppermint and cinnamon can sensitize or irritate skin at higher doses, and some fragrance oils accelerate or seize soap batter.",
+  "practical_guidance": [
+    "Stay within the stated ranges and your supplier's maximums.",
+    "Anchor essential oil blends with base notes rather than simply adding more."
+  ],
+  "warnings": [],
+  "related_topics": ["essential-vs-fragrance-oils", "candle-fragrance-load", "essential-oils-on-the-face"],
+  "faq": false
+ },
+ {
+  "id": "vanilla-discoloration",
+  "title": "Why did my vanilla or chocolate-scented soap turn brown?",
+  "category": "Soapmaking",
+  "book": ["soap"],
+  "chapter": "Fragrances and Colorants for Cold & Hot Process Soap",
+  "keywords": ["brown", "vanillin", "vanilla", "discolor", "discoloration", "turned brown", "chocolate scent", "stabilizer"],
+  "question_variations": [
+    "Why is my soap turning brown?",
+    "What is a vanilla stabilizer?"
+  ],
+  "short_answer": "Vanillin in the fragrance oil oxidizes in alkaline soap and turns it from beige to deep brown. A vanilla stabilizer slows or prevents it.",
+  "detailed_answer": "Vanilla, chocolate, pastry, amber and spice fragrances often contain vanillin. Premix a vanilla stabilizer 1:1 with the fragrance oil (for example 10 ml + 10 ml) and add it at thin to medium trace. Use less stabilizer for low-vanillin fragrances.\n\nCoffee and cocoa give color and texture, but the book notes they leave no lasting coffee or chocolate scent.",
+  "practical_guidance": ["Check your supplier's vanillin percentage before planning a light-colored design."],
+  "warnings": [],
+  "related_topics": ["essential-vs-fragrance-oils", "natural-soap-colorants"],
+  "faq": false
+ },
+ {
+  "id": "soda-ash-white-coating",
+  "title": "Why did my soap develop a white coating?",
+  "category": "Soapmaking",
+  "book": ["soap"],
+  "chapter": "Recipe steps and FAQs, e.g. Rosemary & Citrus Luxury Bar",
+  "keywords": ["white coating", "white powder", "soda ash", "ash", "white film", "white layer", "chalky"],
+  "question_variations": [
+    "What is soda ash?",
+    "How do I prevent white powder on soap?",
+    "Why is the top of my soap white?"
+  ],
+  "short_answer": "That's soda ash: a harmless, powdery film of sodium carbonate formed by carbon dioxide in the air. Spray fresh soap with alcohol to prevent it.",
+  "detailed_answer": "Soda ash doesn't affect how the soap performs; it's purely cosmetic. To prevent it, spray the freshly poured surface generously with 91–99% isopropyl alcohol.",
+  "practical_guidance": ["Spray immediately after pouring and texturing the top."],
+  "warnings": [],
+  "related_topics": ["natural-soap-colorants", "how-long-should-soap-cure"],
+  "faq": true
+ },
+ {
+  "id": "how-oils-affect-soap",
+  "title": "How do different oils affect the final soap?",
+  "category": "Soapmaking",
+  "book": ["soap"],
+  "chapter": "Interpreting Soap Calculator Quality Values",
+  "keywords": ["oils", "which oil", "oil properties", "coconut", "olive", "castor", "shea", "butter", "hardness", "lather", "conditioning", "cleansing", "fatty acids", "oil blend", "choose oils"],
+  "question_variations": [
+    "Which oils should I use for soap?",
+    "What does coconut oil do in soap?",
+    "What does olive oil do in soap?",
+    "How much castor oil should I use?",
+    "How do I choose oils for soap?"
+  ],
+  "short_answer": "Each oil's fatty acids shape the bar: coconut brings hardness and big lather, olive brings mildness and conditioning, castor stabilizes lather, and butters add hardness and creaminess.",
+  "detailed_answer": "In the book's recipes, coconut oil (lauric and myristic acids) gives hardness, abundant bubbly lather and strong cleansing. It traces fast and can dry the skin at high levels unless superfatted. Olive oil (oleic acid) gives mildness, conditioning and a stable, creamy lather, but it traces slowly and needs a long cure. Castor oil (ricinoleic acid) stabilizes a dense, creamy lather at 2–5%; above 5–7% it makes the bar sticky and soft. Shea, mango and cocoa butters add hardness and creaminess.\n\nA typical balanced bar in the book is roughly 28–30% coconut, 15–25% butters, 44–47% olive and 2–5% castor.",
+  "practical_guidance": [
+    "Check a blend in a soap calculator before you make it.",
+    "To change the result, change the oils, never the lye."
+  ],
+  "warnings": ["Don't use fractionated (liquid) coconut oil in place of regular coconut oil in soap recipes."],
+  "related_topics": ["soap-calculator-values", "what-is-superfat", "choosing-a-carrier-oil"],
+  "faq": true
+ },
+ {
+  "id": "soap-calculator-values",
+  "title": "How do I read soap calculator values?",
+  "category": "Soapmaking",
+  "book": ["soap"],
+  "chapter": "Interpreting Soap Calculator Quality Values",
+  "keywords": ["soap calculator", "soapcalc", "hardness", "cleansing", "conditioning", "bubbly", "creamy", "iodine", "ins", "quality values", "numbers"],
+  "question_variations": [
+    "What do the numbers in a soap calculator mean?",
+    "What is a good hardness value?",
+    "What is iodine value?"
+  ],
+  "short_answer": "They're predictions calculated from fatty-acid profiles. Use them as a guide, not as laws.",
+  "detailed_answer": "The book's ranges: hardness 29–54 (ideal 35–45); cleansing 12–22 (ideal 15–20, and above 22 may dry skin, so offset with more superfat); conditioning 44–69; bubbly lather 14–46; creamy lather 16–48. The iodine value measures unsaturation and rancidity risk: ideally under 60, and above 70 means a high risk of rancidity and 'dreaded orange spots'.\n\nThe numbers ignore additives, water quality and curing conditions. 100% olive Castile scores only about 17 for hardness, yet becomes very hard after a long cure.",
+  "practical_guidance": [
+    "The book recommends SoapCalc.net.",
+    "Always make a test batch; the numbers are a starting point."
+  ],
+  "warnings": [],
+  "related_topics": ["how-oils-affect-soap", "what-is-saponification", "castile-soap-slow"],
+  "faq": false
+ },
+ {
+  "id": "water-discount",
+  "title": "What is a water discount?",
+  "category": "Soapmaking",
+  "book": ["soap"],
+  "chapter": "Curing Times for Different Soap Formulations",
+  "keywords": ["water discount", "less water", "lye concentration", "water amount", "unmold faster"],
+  "question_variations": [
+    "How much water should I use in soap?",
+    "Why use less water?"
+  ],
+  "short_answer": "Using less water than the usual 33–38% of oil weight. The book's recipes mostly use 26–27%.",
+  "detailed_answer": "A water discount speeds trace, leaves less water to evaporate, and gives a harder bar sooner, so you can unmold in 24–48 hours. It's especially useful in slow olive-heavy recipes. Very high lye concentrations (around 33%) speed trace dramatically and are recommended only for experienced makers. The hot process recipe uses a full 38% water.",
+  "practical_guidance": ["If a water-discounted soap is rock-hard in the mold, warm the mold briefly in warm water to release it."],
+  "warnings": [],
+  "related_topics": ["why-soap-accelerates", "how-long-should-soap-cure"],
+  "faq": false
+ },
+ {
+  "id": "milk-in-soap",
+  "title": "Can I use milk in soap?",
+  "category": "Soapmaking",
+  "book": ["soap"],
+  "chapter": "Goat Milk & Honey Soap: The No-Gel, Low-Temperature Technique",
+  "keywords": ["milk", "goat milk", "coconut milk", "milk soap", "scorch", "orange", "burnt smell", "frozen milk"],
+  "question_variations": [
+    "How do I make goat milk soap?",
+    "Why did my milk soap turn orange?",
+    "My milk soap smells burnt"
+  ],
+  "short_answer": "Yes. Milk makes a very mild, creamy bar, but its sugars and proteins scorch easily, so it must be kept cold and soaped without gel.",
+  "detailed_answer": "The book's method: freeze the milk in ice-cube trays first. Make the lye solution with chilled water only and let it cool to about room temperature. Add the frozen milk to the cooled lye and stir until melted, keeping it ideally below 30 °C. Combine with oils at 25–28 °C, blend in very short bursts to a light trace, pour into individual molds, don't insulate, and freeze for 3–5 hours or overnight. Cure 8–10 weeks.\n\nIf milk soap turns orange-brown and smells burnt, the milk scorched or the soap gelled.",
+  "practical_guidance": [
+    "Keep everything cold, from milk and lye to oils and molds.",
+    "Over-blending creates heat; use short bursts."
+  ],
+  "warnings": [],
+  "related_topics": ["honey-in-soap", "what-is-gel-phase", "why-soap-accelerates"],
+  "faq": true
+ },
+ {
+  "id": "honey-in-soap",
+  "title": "How do I work with honey and sugar in soap?",
+  "category": "Soapmaking",
+  "book": ["soap"],
+  "chapter": "Natural & Functional Additives for Handmade Soap",
+  "keywords": ["honey", "sugar", "sugars", "lather boost", "humectant", "overheat", "honey soap"],
+  "question_variations": [
+    "Can I add honey to soap?",
+    "Why use sugar in soap?"
+  ],
+  "short_answer": "Both boost lather, but they heat the batter and speed up trace, so add them carefully and keep things cool.",
+  "detailed_answer": "Honey is a humectant that boosts lather, at about 1 teaspoon per 500 g of oils (8 g, around 2%, in the Goat Milk & Honey recipe). It's heat-sensitive: add it to the oils or batter below 38 °C, and in hot process, only after the cook. Sugar (up to 1 tablespoon per 500 g of oils, dissolved in warm recipe water) gives more and creamier lather. Both add heat and accelerate trace.",
+  "practical_guidance": [
+    "Soap cooler and consider individual molds.",
+    "Watch for overheating, cracking or 'volcanoing', especially with oven gel."
+  ],
+  "warnings": [],
+  "related_topics": ["milk-in-soap", "why-soap-accelerates"],
+  "faq": false
+ },
+ {
+  "id": "what-is-a-macerated-oil",
+  "title": "What is a macerated oil?",
+  "category": "Ingredients",
+  "book": ["soap"],
+  "chapter": "Macerated Oils (Infused Oils) for Soap & Skin Care",
+  "keywords": ["macerated", "maceration", "macerate", "infused oil", "infusion", "herbal oil", "calendula oil", "infuse"],
+  "question_variations": [
+    "What is an infused oil?",
+    "How do I make an infused oil?",
+    "How do I make calendula oil?"
+  ],
+  "short_answer": "An oil in which dried botanicals have been steeped so it takes up their fat-soluble compounds, like calendula-infused oil.",
+  "detailed_answer": "Maceration means steeping thoroughly dried plant material in a stable carrier oil. Fresh herbs bring in water, which leads to rancidity and mold. Stable carriers include fractionated coconut, jojoba, high-oleic sunflower and refined olive oil. Avoid flax, hemp, walnut and evening primrose, which oxidize fast.\n\nIn soap, a macerate can replace part of the oil base or be used as a post-trace superfat. The Rosemary & Citrus bar uses rosemary-infused olive oil, and the Fresh-Cut Rose bar uses rose macerate.",
+  "practical_guidance": [
+    "Cold method: fill a jar ½–⅔ with dried herb, cover with at least an inch of oil, and keep it cool and dark for 4–6 weeks, shaking every few days. Then double-strain.",
+    "Heat-assisted: 1–2 weeks in the sun, or an oven at 50 °C or less for 2–8 hours, then strain immediately. Some cloudiness is normal.",
+    "Store in dark glass somewhere cool; it keeps 6–12 months, longer with rosemary extract or vitamin E."
+  ],
+  "warnings": ["Discard any macerate that smells off or shows mold."],
+  "related_topics": ["dual-superfatting", "choosing-a-carrier-oil", "antioxidants-and-rancidity"],
+  "faq": true
+ },
+ {
+  "id": "natural-soap-colorants",
+  "title": "How do I color soap naturally?",
+  "category": "Soapmaking",
+  "book": ["soap"],
+  "chapter": "Fragrances and Colorants for Cold & Hot Process Soap · Natural & Functional Additives for Handmade Soap",
+  "keywords": ["color", "colour", "colorant", "natural color", "clay", "charcoal", "spirulina", "turmeric", "specks", "clumps", "mica"],
+  "question_variations": [
+    "What natural colorants can I use in soap?",
+    "Why does my soap have specks?",
+    "Will charcoal soap stain?"
+  ],
+  "short_answer": "With clays, activated charcoal, spirulina, spices and macerated oils, always pre-dispersed first to avoid specks.",
+  "detailed_answer": "The book covers kaolin (white), rose kaolin (pink), French green clay, rhassoul, activated charcoal (jet black), spirulina (green that shifts toward olive, sage or teal), turmeric (yellow-orange), paprika and cocoa (rust to brown), madder root (pink), annatto (orange), coffee, ginger and cinnamon, vegetable purées, and the golden color of calendula macerate. Mica and liquid pigment are used for melt-and-pour embeds.\n\nFull gel intensifies colors; no-gel keeps layer lines crisp. Activated charcoal is a pigment, not a dye, so it won't stain skin, and gray lather is normal.",
+  "practical_guidance": [
+    "Pre-disperse every powder in a little oil, glycerin or water before adding it.",
+    "Add colorants at thin to medium trace.",
+    "Cure spirulina soaps in the dark; it's light-sensitive."
+  ],
+  "warnings": ["Cinnamon can irritate skin and isn't recommended for facial bars."],
+  "related_topics": ["layered-soap", "what-is-gel-phase", "soda-ash-white-coating"],
+  "faq": false
+ },
+ {
+  "id": "layered-soap",
+  "title": "How do I make clean layers in soap?",
+  "category": "Soapmaking",
+  "book": ["soap"],
+  "chapter": "Four Spices Layered Exfoliating Bar: Precision Layering & Natural Texture",
+  "keywords": ["layers", "layered", "layer lines", "bleeding", "crisp", "divide batch", "spoon pour"],
+  "question_variations": [
+    "Why did my soap layers blur?",
+    "Why must layered soap be no-gel?"
+  ],
+  "short_answer": "Blend only to 'just emulsified', divide straight away, finish each layer separately, and keep the soap cool so it doesn't gel.",
+  "detailed_answer": "Gel heat softens the layers so they bleed into each other, so layered bars are made no-gel. Blend the main batch only until just emulsified, then divide it into one container per layer immediately. Otherwise the last portion will be too thick to pour. Bring each portion to medium trace, add its colorant, oil and fragrance, and pour slowly over the back of a spoon held just above the previous layer. Tap after each pour and texture only the top.",
+  "practical_guidance": [
+    "Soap at a cool 30–35 °C.",
+    "Don't insulate; leave the mold somewhere cool or in the fridge for 12–24 hours.",
+    "Expect to unmold after 3–5 days and cure 8–10 weeks."
+  ],
+  "warnings": [],
+  "related_topics": ["what-is-gel-phase", "what-is-trace", "natural-soap-colorants"],
+  "faq": false
+ },
+ {
+  "id": "hot-process-soap-crumbly",
+  "title": "Why is my hot process soap crumbly?",
+  "category": "Soapmaking",
+  "book": ["soap"],
+  "chapter": "Jasmine-Infused Hot Process Soap",
+  "keywords": ["hot process", "crumbly", "dry", "overcooked", "grainy", "rice pudding", "hard to mold", "done"],
+  "question_variations": [
+    "How do I know hot process soap is done?",
+    "My hot process soap is too dry"
+  ],
+  "short_answer": "It was overcooked and lost moisture. Knead in warm water, milk or aloe juice a teaspoon at a time until it's like putty.",
+  "detailed_answer": "Stirring during the initial gel can also make the texture grainy. Leave the batter covered and untouched while it gels from the edges inward. The soap is done after about 45–60 minutes, when it looks like translucent, waxy mashed potatoes and a small dab diluted with distilled water reads pH 8–10.",
+  "practical_guidance": [
+    "Press the cooked soap firmly into molds to remove air pockets.",
+    "Smooth the top with a spatula moistened with water or alcohol."
+  ],
+  "warnings": ["Never tongue-test soap. Use pH strips."],
+  "related_topics": ["cold-vs-hot-process-soap", "what-is-gel-phase"],
+  "faq": false
+ },
+ {
+  "id": "castile-soap-slow",
+  "title": "Why does Castile soap take so long?",
+  "category": "Soapmaking",
+  "book": ["soap"],
+  "chapter": "Castile Soap: Testament of Patience & Purity",
+  "keywords": ["castile", "olive oil soap", "slow trace", "slimy", "soft", "100% olive"],
+  "question_variations": [
+    "Why is my castile soap slimy?",
+    "Why won't my olive oil soap trace?"
+  ],
+  "short_answer": "Olive oil is mostly oleic acid, which saponifies slowly: slow trace, a soft young bar, and a 6–12 month cure.",
+  "detailed_answer": "Young Castile has a slimy lather and a soft bar. It's safe to use after 4–6 weeks but not at its best. Given 6–12 months, it crystallizes into a hard, creamy, very mild bar. The book's recipe uses a water discount and chilled water to help, and blends in 20–30 second bursts with rests for 5–10 minutes.",
+  "practical_guidance": ["Plan Castile well ahead: a year of curing is even better than six months."],
+  "warnings": [],
+  "related_topics": ["how-long-should-soap-cure", "what-is-trace", "soap-calculator-values"],
+  "faq": false
+ },
+ {
+  "id": "coconut-oil-soap",
+  "title": "Is 100% coconut oil soap drying?",
+  "category": "Soapmaking",
+  "book": ["soap"],
+  "chapter": "100% Coconut Oil Soap: A Masterclass in Single-Oil Formulation",
+  "keywords": ["coconut soap", "100% coconut", "drying", "laundry soap", "salt bar", "cleansing"],
+  "question_variations": [
+    "Why is coconut soap so bubbly?",
+    "Can I make soap with only coconut oil?"
+  ],
+  "short_answer": "It can be. Coconut oil cleanses strongly, so as a skin bar it needs a high superfat of 15–20%. At 0–3% it's a household bar.",
+  "detailed_answer": "Lauric and myristic acids give hardness, abundant fluffy lather and strong cleansing that can strip the skin's oils. Coconut's saturation makes a high superfat safe from rancidity. It traces very fast (30–90 seconds), so the book pours it at thin trace into individual molds and cuts or unmolds within 2–12 hours, before it gets too hard to cut cleanly.",
+  "practical_guidance": ["Recalculate the lye in a soap calculator for the superfat you want."],
+  "warnings": ["Don't use fractionated (liquid) coconut oil; it behaves differently."],
+  "related_topics": ["what-is-superfat", "how-oils-affect-soap", "why-soap-accelerates"],
+  "faq": false
+ },
+ {
+  "id": "juice-and-hydrosol-in-soap",
+  "title": "Why add juice or hydrosol to the oils instead of the lye water?",
+  "category": "Soapmaking",
+  "book": ["soap"],
+  "chapter": "Fresh-Cut Rose Luxury Bar · Coconut Milk & Orange Soap with Chocolate Embed",
+  "keywords": ["juice", "orange juice", "hydrosol", "rose water", "add to oils", "lye water"],
+  "question_variations": [
+    "Can I use rose water in soap?",
+    "Can I add fruit juice to soap?"
+  ],
+  "short_answer": "Concentrated lye would react violently with acidic juice and destroy a hydrosol's compounds. In the oils they disperse and are buffered.",
+  "detailed_answer": "Juice still uses up a little lye, which the recipe's superfat covers. Use fresh juice, not store-bought (which may contain preservatives and added acids). In the Fresh-Cut Rose bar, damask rose hydrosol replaces part of the liquid and is added to the oils before the lye.",
+  "practical_guidance": ["Enter acidic additives in your lye calculator."],
+  "warnings": [],
+  "related_topics": ["what-is-a-hydrosol", "what-is-saponification"],
+  "faq": false
+ }
+]

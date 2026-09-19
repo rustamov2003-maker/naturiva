@@ -1,0 +1,52 @@
+<!--meta
+{
+ "title": "AI Knowledge Assistant: Ask About Soapmaking, Skincare & Candles | NATURIVA",
+ "description": "Ask questions about soapmaking, natural skincare formulation, ingredients and candle making. Answers are grounded in The Art Of books, with the source chapter.",
+ "nav": "assistant",
+ "kb": true,
+ "scripts": ["chat.js"]
+}
+-->
+<section class="assistant-page">
+  <div class="wrap chat">
+    <div class="chat-main">
+      <p class="eyebrow">✦ AI Knowledge Assistant</p>
+      <h1>Ask the Knowledge Assistant</h1>
+      <p class="lede">Answers come from the books, with the chapter to read next. When the books don't cover something, the assistant says so.</p>
+      <div class="chat-log" id="chat-log" role="log" aria-live="polite" aria-label="Conversation">
+        <div class="msg bot"><div class="bubble">
+          <p class="ans-short">Hello! What would you like to understand?</p>
+          <p>Ask about soapmaking, skincare formulation, ingredients or candle making, or pick one of the popular questions. You'll get a short answer, the explanation, what to do, what to watch out for, and where the book goes deeper.</p>
+        </div></div>
+      </div>
+      <form class="chat-form" id="chat-form" autocomplete="off">
+        <label class="visually-hidden" for="chat-input">Your question</label>
+        <input id="chat-input" type="text" placeholder="Type your question…" enterkeyhint="send">
+        <button class="btn" type="submit">Ask</button>
+      </form>
+    </div>
+    <aside class="chat-side">
+      <p class="eyebrow">Popular questions</p>
+      <div class="starter">
+        <button type="button" data-ask="I'm a beginner. Where should I start?">I'm a beginner. Where should I start?</button>
+        <button type="button" data-ask="Why did my soap accelerate?">Why did my soap accelerate?</button>
+        <button type="button" data-ask="How do I choose a candle wick?">How do I choose a candle wick?</button>
+        <button type="button" data-ask="What is a macerated oil?">What is a macerated oil?</button>
+        <button type="button" data-ask="Why is pH important?">Why is pH important?</button>
+        <button type="button" data-ask="Why is my candle tunneling?">Why is my candle tunneling?</button>
+        <button type="button" data-ask="What's the difference between essential oils and fragrance oils?">Essential oils vs fragrance oils?</button>
+        <button type="button" data-ask="What's the difference between cold process and hot process soap?">Cold process vs hot process?</button>
+        <button type="button" data-ask="Why does my candle have wet spots?">Why does my candle have wet spots?</button>
+      </div>
+      <div class="how">
+        <p class="eyebrow">How it works</p>
+        <ul>
+          <li>Answers come only from the books: <em>The Art of Natural Skincare</em>, <em>The Art of Personal Soapmaking</em> and <em>The Big Book of Sweet Dessert Candles</em>.</li>
+          <li>Every answer names its source book and chapter.</li>
+          <li>If the books don't cover a question, it says so instead of guessing.</li>
+          <li>Not medical, legal or regulatory advice.</li>
+        </ul>
+      </div>
+    </aside>
+  </div>
+</section>

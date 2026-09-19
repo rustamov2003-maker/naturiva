@@ -1,0 +1,280 @@
+[
+ {
+  "id": "why-do-candles-tunnel",
+  "title": "Why is my candle tunneling?",
+  "category": "Candle Making",
+  "book": ["candles"],
+  "chapter": "Which Wick Is Best? · Wick Testing · How to Burn a Candle Correctly",
+  "keywords": ["tunnel", "tunneling", "tunnelling", "hole", "burning down the middle", "burns in the center", "wax around the sides", "wax left on sides", "only melts in the middle", "ring of wax", "melt pool small"],
+  "question_variations": [
+    "Why is my candle burning down the middle?",
+    "Why does the wax remain around the sides?",
+    "The candle only burns in the center",
+    "My candle leaves a ring of wax"
+  ],
+  "short_answer": "The wick is usually too small for the container, so the melt pool never reaches the edges. Short burns make it worse.",
+  "detailed_answer": "In the book's wick test, a correctly sized wick melts the whole surface to the edges within 1.5–2 hours, with a melt pool about 1 cm deep. If there's no full melt pool after 2 hours, or the candle tunnels, the wick is too small, and the scent throw will be weak too.\n\nHow you burn matters as well. Each session should last 1.5–2 hours so the whole top layer melts, but no more than 3 hours at a time.",
+  "practical_guidance": [
+    "Test the next wick size up for that container diameter.",
+    "Record wick brand and size, jar diameter, wax and fragrance % for every test.",
+    "Let each burn run until the full surface has melted."
+  ],
+  "warnings": ["Don't over-correct: a wick that's too large melts deep and fast and can flare during long burns."],
+  "related_topics": ["how-to-choose-a-wick", "wick-testing", "how-to-burn-a-candle"],
+  "follow_up": {
+    "prompt": "Would you like to troubleshoot the wick itself or how the candle is burned?",
+    "options": [
+      { "label": "The wick", "id": "how-to-choose-a-wick" },
+      { "label": "Testing a wick", "id": "wick-testing" },
+      { "label": "Burning conditions", "id": "how-to-burn-a-candle" }
+    ]
+  },
+  "faq": true
+ },
+ {
+  "id": "how-to-choose-a-wick",
+  "title": "How do I choose a candle wick?",
+  "category": "Candle Making",
+  "book": ["candles"],
+  "chapter": "Which Wick Is Best?",
+  "keywords": ["wick", "choose wick", "wick size", "which wick", "wick sizing", "cotton wick", "wooden wick", "strands", "braided", "container diameter"],
+  "question_variations": [
+    "What size wick do I need?",
+    "Cotton or wooden wick?",
+    "What is wick sizing?"
+  ],
+  "short_answer": "Match the wick to the container's diameter and your wax, then confirm it with a burn test. The book calls this one of the hardest parts of candle making.",
+  "detailed_answer": "The right wick gives good fragrance throw and a safe burn. In the book's projects: a 250 ml glass takes a 24-strand braided cotton wick or a wooden wick; a 13 cm cake mold takes a 45-strand braided wick; a botanical pillar 10–11 cm across takes a 24-strand wick; a small 3–7 cm container needs at least a 10-strand wick.\n\nWith stones as decoration, wooden or cotton both work. With dried flowers, use braided cotton only, because other wicks risk strong flaring.",
+  "practical_guidance": [
+    "For molds, cut the wick to 12–13 cm, soak it fully in melted wax, then thread it through a wick holder.",
+    "Always confirm a new combination with a wick test."
+  ],
+  "warnings": ["Pigment dyes can clog a wick, so factor colorant into testing."],
+  "related_topics": ["wick-testing", "why-do-candles-tunnel", "attaching-a-wick"],
+  "faq": true
+ },
+ {
+  "id": "wick-testing",
+  "title": "How do I test a wick?",
+  "category": "Candle Making",
+  "book": ["candles"],
+  "chapter": "Wick Testing",
+  "keywords": ["wick test", "test wick", "burn test", "melt pool", "flare", "too big", "too small"],
+  "question_variations": ["How do I know my wick is right?", "Is my wick too big?"],
+  "short_answer": "Cure the test candle 7 days, light it and time the melt pool: it should reach the edges in 1.5–2 hours at about 1 cm deep.",
+  "detailed_answer": "24 hours after pouring, trim the wick to 0.5 cm, close the jar and let it cure 7 days. Note the wick brand and size, jar diameter, wax brand and fragrance %. Then light it and watch how long the melt pool takes to reach the edges, and how deep it is after 2 hours.\n\nDeeper than 1 cm and melting fast means the wick is too large; it may flare if burned for 6 hours. No full melt pool after 2 hours, or tunneling, means it's too small.",
+  "practical_guidance": ["Change one variable at a time between tests."],
+  "warnings": [],
+  "related_topics": ["how-to-choose-a-wick", "why-do-candles-tunnel"],
+  "faq": true
+ },
+ {
+  "id": "candle-wet-spots",
+  "title": "Why does my candle have wet spots?",
+  "category": "Candle Making",
+  "book": ["candles"],
+  "chapter": "\"Wet Spots\" / Candle Adhesion · Reminder: Preventing Wet Spots",
+  "keywords": ["wet spots", "adhesion", "pulling away", "glass", "air pockets", "patches", "not sticking"],
+  "question_variations": [
+    "Why is my wax pulling away from the glass?",
+    "How do I prevent wet spots?",
+    "Why does my candle look patchy through the glass?"
+  ],
+  "short_answer": "Temperature changes as the wax sets: a cold room, a hot pour, a cold or thick-bottomed glass, drafts, or candles too close together.",
+  "detailed_answer": "The book also names stirring too hard (trapped air) and using mold wax in a container. Glasses with uneven wall thickness, such as a heavy base, cool unevenly and are especially prone to wet spots.\n\nPour when the wax turns cloudy and viscous, just about to set, into clean glasses warmed to about 40–50 °C. Cool them on a rack or wooden surface, not marble, at least 10 cm apart and away from drafts.",
+  "practical_guidance": [
+    "To fix existing spots, warm the glass with a heat gun from about 15 cm, moving from bottom to top while rotating the glass.",
+    "Stir fragrance in slowly for 2–3 minutes without whipping in air."
+  ],
+  "warnings": [],
+  "related_topics": ["container-vs-pillar-wax", "uneven-candle-top", "candle-temperatures"],
+  "faq": true
+ },
+ {
+  "id": "uneven-candle-top",
+  "title": "Why is the top of my candle uneven or cracked?",
+  "category": "Candle Making",
+  "book": ["candles"],
+  "chapter": "Uneven Top After Pouring a Candle?",
+  "keywords": ["uneven top", "rough surface", "cracks", "cracked", "bumpy", "sinkhole", "surface", "heat gun", "hair dryer"],
+  "question_variations": [
+    "Why does my candle have a rough surface?",
+    "How do I fix a cracked candle top?",
+    "Can I use a hair dryer instead of a heat gun?"
+  ],
+  "short_answer": "Most often the pouring temperature. Vessel shape, fragrance amount and pouring speed also play a part. A heat gun fixes it after 24 hours.",
+  "detailed_answer": "Wait 24 hours, then re-melt the surface with a heat gun held about 15 cm away at an angle, and poke into any cracks so the voids fill. A hair dryer is only a temporary substitute: it blows too much air, the wax 'remembers' the ripples it makes, and it's slow.",
+  "practical_guidance": ["Pour at the recommended 55–60 °C and at a steady pace."],
+  "warnings": [],
+  "related_topics": ["candle-wet-spots", "candle-temperatures"],
+  "faq": true
+ },
+ {
+  "id": "container-vs-pillar-wax",
+  "title": "What's the difference between container wax and pillar wax?",
+  "category": "Candle Making",
+  "book": ["candles"],
+  "chapter": "Why Different Waxes Are Needed for Container and Mold Candles",
+  "keywords": ["container wax", "pillar wax", "mold wax", "mould wax", "difference", "melt point", "melting point", "wax type"],
+  "question_variations": [
+    "Can I use container wax for a pillar candle?",
+    "What wax should I use for molds?",
+    "I want to learn how to make candles"
+  ],
+  "short_answer": "Container wax melts lower (about 43–47 °C) and clings to glass. Mold (pillar) wax melts at about 57–63 °C, is harder and smoother, and holds its shape as it burns.",
+  "detailed_answer": "Each wax is designed for its job. A mold candle cast from container wax will, in the book's words, turn into 'a pool of oil on your table' when burned. Mold wax used in a jar causes wet spots because it doesn't adhere to the glass.\n\nThe book's main wax is coconut wax, about 80% coconut oil and its derivatives and 20% other vegetable oils, available in both container and mold grades.",
+  "practical_guidance": ["Check the grade on the packaging before every project."],
+  "warnings": [],
+  "related_topics": ["candle-wax-types", "candle-wet-spots", "candle-temperatures"],
+  "faq": true
+ },
+ {
+  "id": "candle-wax-types",
+  "title": "Which wax should I use for candles?",
+  "category": "Candle Making",
+  "book": ["candles"],
+  "chapter": "Coconut Wax · White Beeswax · Soy Wax · Natural Waxes",
+  "keywords": ["wax", "coconut wax", "soy wax", "beeswax", "natural wax", "paraffin", "best wax", "which wax"],
+  "question_variations": ["Is soy wax good?", "What is coconut wax?", "Is paraffin bad?"],
+  "short_answer": "The book works mainly with coconut wax, and also uses soy wax and white beeswax. It prefers natural waxes to mineral ones.",
+  "detailed_answer": "Coconut wax (about 80% coconut oil derivatives and 20% other vegetable oils) is the author's main wax; the book says it burns without smoke or harmful emissions. Soy wax is made from hydrogenated soybean oil, with an average melting point of 69–72 °C. Choose a grade to suit the project: container or mold, dyed or not, massage candle or aroma sachet. White beeswax is ordinary beeswax bleached by sunlight or UV.\n\nThe book also has a reference section on animal, plant and mineral waxes. It doesn't recommend mineral waxes such as paraffin.",
+  "practical_guidance": ["Buy the grade (container or mold) that matches your project."],
+  "warnings": [],
+  "related_topics": ["container-vs-pillar-wax", "candle-temperatures", "gel-candles"],
+  "faq": false
+ },
+ {
+  "id": "candle-fragrance-load",
+  "title": "How much fragrance should I use in a candle?",
+  "category": "Candle Making",
+  "book": ["candles"],
+  "chapter": "Coconut Wax · Decorative Container Candle",
+  "keywords": ["fragrance load", "how much fragrance", "fragrance oil", "scent", "percentage", "candle scent", "10%", "12%", "scent throw"],
+  "question_variations": [
+    "What is fragrance load?",
+    "How strong should my candle scent be?",
+    "When do I add fragrance to wax?"
+  ],
+  "short_answer": "10–12% of the wax weight. For example, 19–22.8 g of fragrance in 180–185 g of coconut wax.",
+  "detailed_answer": "Check the fragrance maker's instructions for the addition temperature. The book gives two options: 55–60 °C, or a higher 73–85 °C if the supplier says so. After adding it, stir slowly clockwise for 2–3 minutes without whipping in air. In several projects the fragrance goes in just as the wax at 55–59 °C starts to turn slightly cloudy.\n\nThe cure matters too: 7–10 days lets the fragrance bind with the coconut wax and develop both cold and hot throw.",
+  "practical_guidance": ["Follow your supplier's maximum load and temperature."],
+  "warnings": [],
+  "related_topics": ["candle-temperatures", "how-to-burn-a-candle", "too-much-fragrance"],
+  "faq": true
+ },
+ {
+  "id": "candle-temperatures",
+  "title": "What temperatures should I use for coconut wax candles?",
+  "category": "Candle Making",
+  "book": ["candles"],
+  "chapter": "Coconut Wax · Decorative Container Candle",
+  "keywords": ["temperature", "pour temperature", "melt", "melting", "how hot", "degrees", "double boiler", "85"],
+  "question_variations": ["What temperature do I pour candles at?", "How hot should wax get?"],
+  "short_answer": "Melt fully at about 70 °C, add fragrance at 55–60 °C, pour at 55–60 °C, and never exceed 85 °C.",
+  "detailed_answer": "The book's reference card for coconut wax: container wax melts at 43–45 °C and mold wax at 57–63 °C. Melt completely at about 70 °C in a double boiler on low heat. Add solid dyes at 70–80 °C and liquid dyes at 55–60 °C. Warm containers to about 40 °C before pouring. Candle gel is different: it melts and pours at about 90–105 °C and must never exceed 110 °C.",
+  "practical_guidance": ["Use a kitchen thermometer; don't judge temperature by eye."],
+  "warnings": ["Never let wax boil. Melt it only in a double boiler, never over an open flame. If wax catches fire, don't use water: smother it with baking soda."],
+  "related_topics": ["candle-fragrance-load", "candle-wet-spots", "candle-safety"],
+  "faq": false
+ },
+ {
+  "id": "how-to-burn-a-candle",
+  "title": "How should I prepare and burn a new candle?",
+  "category": "Candle Making",
+  "book": ["candles"],
+  "chapter": "How to Burn a Candle Correctly",
+  "keywords": ["burn", "first burn", "prepare candle", "before burning", "cure candle", "trim wick", "blow out", "snuffer", "how long burn", "burn time"],
+  "question_variations": [
+    "How long should a candle cure?",
+    "How long should I burn a candle?",
+    "How should I put out a candle?",
+    "How should I prepare a candle before burning it?"
+  ],
+  "short_answer": "Let it set 24 hours, trim the wick to 0.5 cm, cure 7–10 days, then burn 1.5–2 hours at a time until the whole surface melts, never more than 3 hours.",
+  "detailed_answer": "Container candles need 7–10 days before the first burn so the fragrance binds with the wax. Before every burn, trim and wipe the wick so burnt bits don't fall into the melt pool. For long sessions, put the candle out for 5–10 minutes every couple of hours. Never blow it out, or the smoky wick smell will mix with the fragrance next time. Use the lid or a snuffer.",
+  "practical_guidance": ["Keep burning candles at least 10 cm apart and away from drafts."],
+  "warnings": ["Burning longer than 3 hours overheats the wax."],
+  "related_topics": ["why-do-candles-tunnel", "candle-fragrance-load", "candle-safety"],
+  "faq": true
+ },
+ {
+  "id": "attaching-a-wick",
+  "title": "How do I attach a wick to a jar?",
+  "category": "Candle Making",
+  "book": ["candles"],
+  "chapter": "How to Attach a Candle Wick to a Jar or Glass",
+  "keywords": ["attach wick", "wick sticker", "wick moves", "wick floats", "center wick", "drop of wax"],
+  "question_variations": ["Can I stick the wick down with a drop of wax?", "Why did my wick float?"],
+  "short_answer": "Use a heat-rated double-sided wick sticker on a dust-free glass, not a drop of wax.",
+  "detailed_answer": "A drop of wax is the same wax as the rest of the candle, so it melts when you pour and the wick can float free. Wipe dust off the jar with a tissue first, but don't degrease it. Hold the wick upright and centered with chopsticks or a wick holder while the wax sets.",
+  "practical_guidance": [],
+  "warnings": [],
+  "related_topics": ["how-to-choose-a-wick"],
+  "faq": false
+ },
+ {
+  "id": "candle-dyes",
+  "title": "How do I color candle wax?",
+  "category": "Candle Making",
+  "book": ["candles"],
+  "chapter": "Wax Dyes · Organic / Natural Candle Dyes · Inorganic Candle Dyes · Using Candle Dyes",
+  "keywords": ["dye", "color", "colour", "candle color", "gouache", "watercolor", "crayons", "mica", "pigment"],
+  "question_variations": ["Can I use gouache to color wax?", "Why is my candle lighter than the liquid wax?"],
+  "short_answer": "Use oil-soluble ('F') or mixed ('F+P') candle dyes, crayons, mica or natural colorants, added gradually. Never use water-based paints.",
+  "detailed_answer": "Oil-soluble 'F' dyes are transparent and bright and don't affect the burn. Pigment 'P' dyes give deeper color but can clog the wick. Mixed 'F+P' combine both. Gouache, watercolor and ink separate into flakes. Natural colorants (turmeric, cocoa, coffee, beet juice, henna) give soft pastels but are uneven and pH-sensitive.\n\nColor sets about one shade lighter than it looks in liquid wax. Add solid dyes at 70–80 °C and liquid dyes at 55–60 °C.",
+  "practical_guidance": ["Test each dye with your wax: 3–4 drops for a light shade, 5–7 for a stronger one."],
+  "warnings": ["Too much dye causes heavy smoke or even ignition, and it can't be taken out once added."],
+  "related_topics": ["candle-temperatures", "how-to-choose-a-wick"],
+  "faq": false
+ },
+ {
+  "id": "gel-candles",
+  "title": "How do I work with candle gel?",
+  "category": "Candle Making",
+  "book": ["candles"],
+  "chapter": "Gel Candles · Gel Candle Combined with Coconut Wax",
+  "keywords": ["gel", "gel candle", "bubbles", "clear candle", "mineral oil"],
+  "question_variations": ["Why does my gel candle have bubbles?", "How much gel do I need?"],
+  "short_answer": "Gel needs far more heat than wax: melt it over intensely boiling water to 90–105 °C (never above 110 °C) and stir with a glass rod.",
+  "detailed_answer": "Gel is pharmaceutical-grade mineral oil with a gelling agent: transparent, odorless and remeltable. It conducts heat poorly and is very thick, so at 85 °C it stays too viscous and traps bubbles. Use a narrow metal cup with the boiling water at least as high as the gel. Plastic softens and wood releases moisture that clouds the gel, so stir with glass.\n\nTo size a batch, fill the vessel with water (including any decorations), weigh the water and multiply by 0.9.",
+  "practical_guidance": [
+    "Pre-warm the vessel so it doesn't crack and the gel doesn't set on contact.",
+    "Use only oil-based dyes in gel."
+  ],
+  "warnings": ["Never heat gel above 110 °C."],
+  "related_topics": ["candle-wax-types", "candle-temperatures"],
+  "faq": false
+ },
+ {
+  "id": "candle-safety",
+  "title": "What are the key safety rules for candle making?",
+  "category": "Safety",
+  "book": ["candles"],
+  "chapter": "Safety Rules",
+  "keywords": ["candle safety", "wax fire", "fire", "flame", "children", "safe candle", "boil"],
+  "question_variations": ["What if wax catches fire?", "Is candle making safe?"],
+  "short_answer": "Melt wax only in a double boiler, never over an open flame, never let it exceed 85 °C, and smother any wax fire with baking soda, never water.",
+  "detailed_answer": "The book says even small violations can have serious consequences. Keep small children away from the work, since stones, dried flowers, glitter, dyes and fragrances can end up in mouths. Read dye and fragrance instructions carefully and follow the maker's percentages and temperatures. Use cotton wicks with dried flowers to avoid flaring.",
+  "practical_guidance": [],
+  "warnings": ["Don't burn candles for more than 3 hours at a time."],
+  "related_topics": ["candle-temperatures", "how-to-burn-a-candle"],
+  "faq": true
+ },
+ {
+  "id": "candle-frosting",
+  "title": "Why does my candle have frosting?",
+  "category": "Candle Making",
+  "book": ["candles"],
+  "chapter": "",
+  "keywords": ["frosting", "frosted", "white crystals", "white bloom", "bloom", "white film candle"],
+  "question_variations": ["What is candle frosting?", "Why is there white crystal on my candle?"],
+  "coverage": "gap",
+  "gap": "The candle book doesn't discuss frosting.",
+  "short_answer": "The available book material does not provide enough information to answer this reliably.",
+  "detailed_answer": "The candle book covers wet spots, uneven or cracked tops, tunneling and flaring, but not frosting. For surface appearance issues it does cover, see the articles on wet spots and uneven tops.",
+  "practical_guidance": [],
+  "warnings": [],
+  "related_topics": ["candle-wet-spots", "uneven-candle-top"],
+  "faq": false
+ }
+]
