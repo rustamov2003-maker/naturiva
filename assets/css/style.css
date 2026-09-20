@@ -508,3 +508,62 @@ a:has(> .cover), .lib-cover { text-decoration: none; display: block; }
 .banner { margin: 0; }
 .banner img { width: 100%; height: clamp(14rem, 34vw, 26rem); object-fit: cover; object-position: center 55%; }
 @media (min-width: 1100px) { .banner img { height: clamp(18rem, 30vw, 30rem); } }
+
+/* ---------- editorial polish ---------- */
+
+/* hero: photo with the formula card layered over its corner */
+.hero-visual { position: relative; }
+.hero-visual .banner img {
+  height: clamp(15rem, 42vw, 24rem); border-radius: 16px;
+  box-shadow: 0 30px 60px -34px rgba(28, 42, 35, .55);
+}
+.hero-visual .formula-card { position: relative; z-index: 2; width: min(100%, 21.5rem); margin: -2.5rem 0 0 auto; }
+@media (min-width: 960px) {
+  .hero-visual .banner img { height: clamp(24rem, 32vw, 34rem); }
+  .hero-visual .formula-card { margin: -3.5rem -1.25rem 0 auto; }
+  .hero-visual .fc-explain { min-height: 3em; }
+}
+@media (max-width: 480px) { .hero-visual .formula-card { margin-top: -2rem; } }
+
+/* section eyebrows get a hairline, so structure reads at a glance */
+.section > .wrap > .eyebrow::after,
+.section > .wrap > div > .eyebrow::after {
+  content: ""; display: block; width: 2.5rem; height: 1px; background: var(--calendula); margin-top: .55rem;
+}
+
+/* cards lift on hover; covers tilt slightly */
+.try, .k-card, .lib-card, .level, .ing { transition: transform .25s ease, box-shadow .25s ease, border-color .25s ease; }
+.try:hover, .k-card:hover, .level:hover, .ing:hover { transform: translateY(-3px); box-shadow: 0 18px 34px -26px rgba(28, 42, 35, .5); border-color: var(--ink-soft); }
+.lib-card:hover { box-shadow: 0 22px 44px -30px rgba(28, 42, 35, .5); }
+.lib-cover .cover { transition: transform .35s cubic-bezier(.2, .7, .2, 1); }
+.lib-card:hover .lib-cover .cover { transform: rotate(-1.5deg) translateY(-4px) scale(1.02); }
+.cover.lg { transition: transform .4s cubic-bezier(.2, .7, .2, 1); }
+.book-hero:hover .cover.lg { transform: rotate(-1deg) translateY(-5px); }
+
+/* banners read as plates, not filler */
+.banner { position: relative; }
+.section + .banner, .page-hero + .banner { margin-top: 0; }
+.banner img { transition: transform 8s ease-out; }
+
+/* knowledge article: editorial first paragraph */
+.article-main > section:first-of-type > p:first-of-type::first-letter {
+  float: left; font-family: var(--f-display); font-size: 3.3rem; line-height: .82;
+  padding: .1rem .5rem 0 0; color: var(--leaf);
+}
+.short-answer { position: relative; }
+.short-answer::after {
+  content: "✦"; position: absolute; right: .9rem; top: .7rem; color: var(--calendula); font-size: .9rem;
+}
+
+/* quiet reveal on scroll */
+@media (prefers-reduced-motion: no-preference) {
+  .reveal { opacity: 0; transform: translateY(14px); }
+  .reveal.in { opacity: 1; transform: none; transition: opacity .7s cubic-bezier(.2, .7, .2, 1), transform .7s cubic-bezier(.2, .7, .2, 1); }
+  .reveal-stagger > * { opacity: 0; transform: translateY(14px); }
+  .reveal-stagger.in > * { opacity: 1; transform: none; transition: opacity .6s ease, transform .6s cubic-bezier(.2, .7, .2, 1); }
+  .reveal-stagger.in > *:nth-child(2) { transition-delay: .07s; }
+  .reveal-stagger.in > *:nth-child(3) { transition-delay: .14s; }
+  .reveal-stagger.in > *:nth-child(4) { transition-delay: .21s; }
+  .reveal-stagger.in > *:nth-child(5) { transition-delay: .28s; }
+  .reveal-stagger.in > *:nth-child(6) { transition-delay: .35s; }
+}

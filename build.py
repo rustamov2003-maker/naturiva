@@ -400,7 +400,7 @@ def page(meta, body, rel):
     scripts = []
     if meta.get("kb"):
         scripts += ["kb.js", "engine.js"]
-    scripts += ["site.js"] + meta.get("scripts", []) + ["widget.js"]
+    scripts += ["site.js", "reveal.js"] + meta.get("scripts", []) + ["widget.js"]
     script_tags = "\n".join(f'<script src="{root}assets/js/{s}" defer></script>' for s in scripts)
     return f"""<!doctype html>
 <html lang="en">
