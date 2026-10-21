@@ -1,12 +1,12 @@
-/* NATURIVA Knowledge Engine (prototype)
+/* GLOWMANCY Knowledge Engine (prototype)
  * ---------------------------------------------------------------------------
  * Answers questions from the structured knowledge base in kb.js, which build.py
  * generates from content/*.json. Everything it says comes from the books.
  *
  * Public interface (keep this stable when swapping in a real backend):
  *
- *   NaturivaEngine.ask(question, context) -> Promise<Result>
- *   NaturivaEngine.search(query, limit)   -> Array<{doc, score}>
+ *   GlowmancyEngine.ask(question, context) -> Promise<Result>
+ *   GlowmancyEngine.search(query, limit)   -> Array<{doc, score}>
  *
  *   Result = {
  *     kind: "knowledge" | "partial" | "gap" | "customer" | "ingredient" | "book" | "none",
@@ -18,13 +18,13 @@
  *
  * Production path (see README.md): books -> text extraction -> chunking ->
  * embeddings -> vector store -> retrieval -> LLM -> answer + source citation.
- * Set NATURIVA_CONFIG.assistantEndpoint to a URL that accepts
+ * Set GLOWMANCY_CONFIG.assistantEndpoint to a URL that accepts
  * POST {question, history} and returns a Result; the UI stays the same and the
  * local matcher below becomes the offline fallback.
  */
 (function () {
   "use strict";
-  var KB = window.NATURIVA_KB;
+  var KB = window.GLOWMANCY_KB;
   if (!KB) return;
 
   var NOT_ENOUGH = "The available book material does not provide enough information to answer this reliably.";
@@ -267,7 +267,7 @@
 
   // ---------------------------------------------------------------- remote engine (future RAG)
   function remoteAsk(question, ctx) {
-    var cfg = window.NATURIVA_CONFIG || {};
+    var cfg = window.GLOWMANCY_CONFIG || {};
     return fetch(cfg.assistantEndpoint, {
       method: "POST",
       headers: { "Content-Type": "application/json" },
@@ -278,13 +278,13 @@
     });
   }
 
-  window.NaturivaEngine = {
+  window.GlowmancyEngine = {
     NOT_ENOUGH: NOT_ENOUGH,
     CONSULT: CONSULT,
     byId: function (id) { return byId[id] || null; },
     book: function (id) { return booksById[id] || null; },
     ask: function (question, ctx) {
-      var cfg = window.NATURIVA_CONFIG || {};
+      var cfg = window.GLOWMANCY_CONFIG || {};
       if (cfg.assistantEndpoint) {
         return remoteAsk(question, ctx).catch(function () { return localAsk(question, ctx); });
       }

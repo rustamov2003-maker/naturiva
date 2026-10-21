@@ -1,23 +1,23 @@
 /* Shared behavior: theme, mobile menu, analytics hooks, copy link, FAQ tracking. */
 (function () {
   "use strict";
-  var cfg = window.NATURIVA_CONFIG || {};
+  var cfg = window.GLOWMANCY_CONFIG || {};
 
   // ---------------------------------------------------------------- analytics
   window.dataLayer = window.dataLayer || [];
-  window.naturivaTrack = function (event, props) {
+  window.glowmancyTrack = function (event, props) {
     var payload = Object.assign({ event: event }, props || {});
     window.dataLayer.push(payload);
-    if (cfg.analytics && cfg.analytics.debug) console.info("[naturiva]", payload);
+    if (cfg.analytics && cfg.analytics.debug) console.info("[glowmancy]", payload);
   };
   document.addEventListener("click", function (e) {
     var el = e.target.closest("[data-track]");
-    if (el) window.naturivaTrack(el.getAttribute("data-track"), { book: el.getAttribute("data-book") || undefined });
+    if (el) window.glowmancyTrack(el.getAttribute("data-track"), { book: el.getAttribute("data-book") || undefined });
   });
   document.addEventListener("toggle", function (e) {
     var d = e.target;
     if (d.matches && d.matches("details[data-faq]") && d.open) {
-      window.naturivaTrack("faq_opened", { id: d.id });
+      window.glowmancyTrack("faq_opened", { id: d.id });
     }
   }, true);
 
@@ -31,7 +31,7 @@
     var next = modes[(modes.indexOf(current()) + 1) % modes.length];
     if (next === "auto") delete document.documentElement.dataset.theme;
     else document.documentElement.dataset.theme = next;
-    try { next === "auto" ? localStorage.removeItem("naturiva-theme") : localStorage.setItem("naturiva-theme", next); } catch (err) {}
+    try { next === "auto" ? localStorage.removeItem("glowmancy-theme") : localStorage.setItem("glowmancy-theme", next); } catch (err) {}
     label();
   });
 

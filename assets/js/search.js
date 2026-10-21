@@ -1,12 +1,12 @@
 /* Search the knowledge base (FAQ page). */
 (function () {
   "use strict";
-  var E = window.NaturivaEngine;
+  var E = window.GlowmancyEngine;
   var input = document.getElementById("kb-search");
   var out = document.getElementById("kb-results");
   if (!E || !input || !out) return;
   var ROOT = document.body.getAttribute("data-root") || "";
-  var published = new Set((window.NATURIVA_KB || {}).published || []);
+  var published = new Set((window.GLOWMANCY_KB || {}).published || []);
   var timer = null, lastTracked = "";
 
   function esc(s) { return String(s).replace(/[&<>"]/g, function (c) { return { "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]; }); }
@@ -34,7 +34,7 @@
       out.innerHTML = '<p class="count">' + results.length + " result" + (results.length === 1 ? "" : "s") + ' for “' + esc(q) + '”</p><div class="k-grid">' +
         results.map(function (r) { return card(r.doc); }).join("") + "</div>";
     }
-    if (q !== lastTracked && q.length > 2) { lastTracked = q; window.naturivaTrack && naturivaTrack("search_used", { query: q, results: results.length }); }
+    if (q !== lastTracked && q.length > 2) { lastTracked = q; window.glowmancyTrack && glowmancyTrack("search_used", { query: q, results: results.length }); }
   }
 
   input.addEventListener("input", function () { clearTimeout(timer); timer = setTimeout(run, 180); });

@@ -1,4 +1,4 @@
-/* NATURIVA runtime configuration.
+/* GLOWMANCY runtime configuration.
  * Edit here; no rebuild needed.
  *
  * assistantEndpoint
@@ -15,7 +15,7 @@
  *   amazon_clicked, faq_opened, search_used, learning_path_started,
  *   learning_path_completed, newsletter_signup (reserved for a future signup form).
  */
-window.NATURIVA_CONFIG = {
+window.GLOWMANCY_CONFIG = {
   assistantEndpoint: null,
   analytics: {
     debug: false          // true logs every event to the console

@@ -50,11 +50,11 @@
   }
   function ensureReady() {
     if (ready) return ready;
-    ready = (window.NATURIVA_KB ? Promise.resolve() : load("kb.js"))
-      .then(function () { return window.NaturivaEngine ? null : load("engine.js"); })
-      .then(function () { return window.NaturivaChat ? null : load("chat.js"); })
+    ready = (window.GLOWMANCY_KB ? Promise.resolve() : load("kb.js"))
+      .then(function () { return window.GlowmancyEngine ? null : load("engine.js"); })
+      .then(function () { return window.GlowmancyChat ? null : load("chat.js"); })
       .then(function () {
-        chat = window.NaturivaChat.mount({
+        chat = window.GlowmancyChat.mount({
           log: wrap.querySelector(".cw-log"), form: wrap.querySelector(".cw-form"),
           scope: panel, scrollInside: true, surface: "widget"
         });
@@ -79,7 +79,7 @@
   }
   function hideHint(remember) {
     hint.hidden = true;
-    if (remember) { try { sessionStorage.setItem("naturiva-hint", "1"); } catch (e) {} }
+    if (remember) { try { sessionStorage.setItem("glowmancy-hint", "1"); } catch (e) {} }
   }
 
   launch.addEventListener("click", function () { panel.hidden ? open() : close(); });
@@ -106,6 +106,6 @@
   });
 
   var seen = false;
-  try { seen = sessionStorage.getItem("naturiva-hint") === "1"; } catch (e) {}
+  try { seen = sessionStorage.getItem("glowmancy-hint") === "1"; } catch (e) {}
   if (!seen) setTimeout(function () { if (panel.hidden) hint.hidden = false; }, 9000);
 })();

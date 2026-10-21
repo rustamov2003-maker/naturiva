@@ -1,5 +1,5 @@
 /* Knowledge Assistant chat component.
- * NaturivaChat.mount({ log, form, scope }) wires a conversation to NaturivaEngine.
+ * GlowmancyChat.mount({ log, form, scope }) wires a conversation to GlowmancyEngine.
  * Used by the full assistant page (auto-mounted on #chat-log) and by the
  * floating chat widget (widget.js). Answers explain and point to the book;
  * they never reproduce whole chapters. */
@@ -20,7 +20,7 @@
   function articleUrl(id) { return ROOT + "knowledge/" + id + ".html"; }
 
   function mount(opts) {
-    var E = window.NaturivaEngine, KB = window.NATURIVA_KB;
+    var E = window.GlowmancyEngine, KB = window.GLOWMANCY_KB;
     var log = opts.log, form = opts.form, scope = opts.scope || document;
     if (!E || !log || !form) return null;
     var input = form.querySelector("input");
@@ -75,7 +75,7 @@
     function renderCustomer(res) {
       ctx.pending = [];
       return '<span class="ans-label">About the books</span>' + res.doc.rec.a.replace(/\{ROOT\}/g, ROOT) +
-        '<p class="src">Source: the NATURIVA library · <a href="' + ROOT + 'books.html">Browse all books</a></p>';
+        '<p class="src">Source: the GLOWMANCY library · <a href="' + ROOT + 'books.html">Browse all books</a></p>';
     }
     function renderIngredient(res) {
       var i = res.doc.rec;
@@ -121,7 +121,7 @@
       if (!question) return;
       reveal(add(question, "user"));
       ctx.history.push({ role: "user", content: question });
-      window.naturivaTrack && naturivaTrack("knowledge_question_submitted", { question: question, surface: opts.surface || "page" });
+      window.glowmancyTrack && glowmancyTrack("knowledge_question_submitted", { question: question, surface: opts.surface || "page" });
       var thinking = add('<span class="typing">Looking through the books…</span>', "bot");
       var forced = forcedId && E.byId(forcedId);
       var p = forced
@@ -132,7 +132,7 @@
           thinking.querySelector(".bubble").innerHTML = (RENDER[res.kind] || renderNone)(res);
           reveal(thinking);
           ctx.history.push({ role: "assistant", content: res.doc ? res.doc.id : "none" });
-          window.naturivaTrack && naturivaTrack("knowledge_answer_viewed", { kind: res.kind, id: res.doc ? res.doc.id : null });
+          window.glowmancyTrack && glowmancyTrack("knowledge_answer_viewed", { kind: res.kind, id: res.doc ? res.doc.id : null });
         }, 280);
       });
     }
@@ -152,7 +152,7 @@
     return { ask: ask };
   }
 
-  window.NaturivaChat = { mount: mount };
+  window.GlowmancyChat = { mount: mount };
 
   // Full assistant page
   var pageLog = document.getElementById("chat-log");

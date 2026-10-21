@@ -3,7 +3,7 @@
 global.window = globalThis;
 require("../assets/js/kb.js");
 require("../assets/js/engine.js");
-const E = window.NaturivaEngine;
+const E = window.GlowmancyEngine;
 
 const cases = [
   // soap

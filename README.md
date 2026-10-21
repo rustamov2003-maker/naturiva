@@ -1,4 +1,4 @@
-# NATURIVA: Natural Formulation & Beauty Education
+# GLOWMANCY: Natural Formulation & Beauty Education
 
 A knowledge platform built around Nigar Rustamova's *The Art Of* books:
 
@@ -94,8 +94,8 @@ Issues found while reviewing the source PDFs are kept in `NOTES-private.md` (loc
 
 | Where | What |
 |---|---|
-| VPS (nginx vhost `naturiva`) | http://naturiva.129.121.111.249.nip.io/ — site in `/var/www/naturiva`, sources in `/srv/naturiva-src`, config in `/etc/nginx/sites-available/naturiva` |
-| GitHub Pages (preview) | https://rustamov2003-maker.github.io/naturiva/ |
+| VPS (nginx vhost `glowmancy`) | http://glowmancy.129.121.111.249.nip.io/ — site in `/var/www/glowmancy`, sources in `/srv/glowmancy-src`, config in `/etc/nginx/sites-available/glowmancy` |
+| GitHub Pages (preview) | https://rustamov2003-maker.github.io/glowmancy/ |
 
 Run `./deploy.sh` to rebuild and publish to the VPS. `robots.txt` currently asks search engines not to index the site; remove that rule when the real domain goes live.
 

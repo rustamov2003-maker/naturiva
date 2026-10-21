@@ -1,7 +1,7 @@
 /* Find your starting point: builds a learning path from content/paths.json. */
 (function () {
   "use strict";
-  var KB = window.NATURIVA_KB;
+  var KB = window.GLOWMANCY_KB;
   var root = document.getElementById("pathfinder");
   if (!KB || !root) return;
   var P = KB.paths;
@@ -78,7 +78,7 @@
     result.innerHTML = html;
     result.hidden = false;
     result.querySelector("#path-title").focus({ preventScroll: false });
-    window.naturivaTrack && naturivaTrack("learning_path_completed", { level: state.level, interest: state.interest });
+    window.glowmancyTrack && glowmancyTrack("learning_path_completed", { level: state.level, interest: state.interest });
   }
 
   root.addEventListener("click", function (e) {
@@ -87,7 +87,7 @@
       state.level = l.getAttribute("data-level");
       select(levelBox, "level", state.level);
       interestBox.hidden = false;
-      window.naturivaTrack && naturivaTrack("learning_path_started", { level: state.level });
+      window.glowmancyTrack && glowmancyTrack("learning_path_started", { level: state.level });
       interestBox.querySelector("h2").focus();
       render();
     }
